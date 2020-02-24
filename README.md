@@ -1,2 +1,2 @@
 # 003_HPPavilionDV6AMDFanAlwaysRunning
-Document Technical Issues I met and solutions I found
+cf wiki of this folder for full study.
