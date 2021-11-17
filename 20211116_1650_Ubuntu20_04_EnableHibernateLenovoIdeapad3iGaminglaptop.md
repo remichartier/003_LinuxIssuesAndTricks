@@ -3,13 +3,13 @@
 ## Configure properly swapfile size
 
 According to [1] : 
-```
-Hibernate saves all of your RAM data on the hard disk and restores back into RAM after you turn on the computer.
-.....
-That’s why the swap partition must be more than or equal to RAM. To check your swap partition open ‘System Monitor’.
 
-In the Resources Tab check your RAM and Swap. If swap is more than RAM, you’re good to go
-```
+> "Hibernate saves all of your RAM data on the hard disk and restores back into RAM after you turn on the computer."
+.....
+> "That’s why the swap partition must be more than or equal to RAM. To check your swap partition open ‘System Monitor’."
+
+> "In the Resources Tab check your RAM and Swap. If swap is more than RAM, you’re good to go"
+
 
 According to [2] : 
 
@@ -183,7 +183,7 @@ cf [7] :
 
 - `hibernate won't work with Nvidia's On-demand prime profile, but works with Performance or Intel profile`
 
---> Using `NVidia X Server Settings`, I switched GPU mode from `Performance` to `Intel (Power Saving Mode)`, then the 'sudo hibernate' and resume worked successfully.
+--> Using `NVidia X Server Settings` App, I switched GPU mode from `Performance` to `Intel (Power Saving Mode)`, then the 'sudo hibernate' and resume worked successfully.
 
 cf [8] :
 
