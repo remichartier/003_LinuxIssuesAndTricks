@@ -100,11 +100,11 @@ To find the physical offset for /swapfile, run command:
 Copy the start number under physical_offset. It’s 927744 in my case.
 
 Note : There is an easier way proposed by [4] : 
-  - Find your UUID and swap offset:
+- Find your UUID and swap offset:
 
-    - `findmnt -no UUID -T /swapfile && sudo swap-offset /swapfile`
+  - `findmnt -no UUID -T /swapfile && sudo swap-offset /swapfile`
 
-  - You will see something like this:
+- You will see something like this:
 
     ```
     371b1a95-d91b-49f8-aa4a-da51cbf780b2
@@ -193,27 +193,28 @@ For `hibernate:Warning: Tuxonice binary signature file not found.`, it is not bl
 ## Sources : 
 
 [1] : [How to Enable Hibernate in Ubuntu Linux](https://www.linuxandubuntu.com/home/how-to-enable-hibernate-in-ubuntu-linux)
-  - Explain need for swap file or swap partition to be properly sized.
+- Explain need for swap file or swap partition to be properly sized.
 
 [2] : [How To Create or Resize Swap Space on Ubuntu 20.04 – 20.10 & 18.04 – 19.10](https://devanswers.co/creating-swap-space-ubuntu-18-04/)
-  - Paragraph `Increase or Resize Swap Space`
+- Paragraph `Increase or Resize Swap Space`
 
 [3] : [How to Enable Hibernate Function & Menu Option in Ubuntu 21.10](https://ubuntuhandbook.org/index.php/2021/08/enable-hibernate-ubuntu-21-10/)
-  - Paragraph `Enable Hibernate on Swap File`
+- Paragraph `Enable Hibernate on Swap File`
 
 [4] : [How to enable the hibernate option in Ubuntu 20.04?](https://askubuntu.com/questions/1240123/how-to-enable-the-hibernate-option-in-ubuntu-20-04)
-  - intall pm-utils and hibernate packages
+- intall pm-utils and hibernate packages
 
 [5] : [How to activate hibernation in 16.04.1 ? (systemd)](https://askubuntu.com/questions/868208/how-to-activate-hibernation-in-16-04-1-systemd)
-  - This page infers that `Failed to hibernate system via logind: Sleep verb not supported` is due to Secure Boot activated in BIOS/UEFI settings.
+- This page infers that `Failed to hibernate system via logind: Sleep verb not supported` is due to Secure Boot activated in BIOS/UEFI settings.
 
 [6] : [Disabling Secure Boot](https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/disabling-secure-boot?view=windows-11) 
-  - Explanation of Secure Boot, it seems ok and reasonable to disable it on BIOS/UEFI for Linux laptops.
+- Explanation of Secure Boot, it seems ok and reasonable to disable it on BIOS/UEFI for Linux laptops.
 
 [7] : [I am having problem with hibernate. I have ubuntu 20.04LTS and it doesn't hibernates](https://stackoverflow.com/questions/63572394/i-am-having-problem-with-hibernate-i-have-ubuntu-20-04lts-and-it-doesnt-hibern)
+- Nvidia mode blocking hibernate functionality
 
 [8] : [hibernate:Warning: Tuxonice binary signature file not found](https://askubuntu.com/questions/1062206/hibernatewarning-tuxonice-binary-signature-file-not-found)
-  - No fix for this no blocking warning on Tuxonice
+- No fix for this no blocking warning on Tuxonice
 
 [9] : [Ubuntu 18.04 can't resume after hibernate](https://askubuntu.com/questions/1034185/ubuntu-18-04-cant-resume-after-hibernate/1064114#1064114)
-  - Additional info about swap files and activating hibernate feature on Linux Ubuntu
+- Additional info about swap files and activating hibernate feature on Linux Ubuntu
