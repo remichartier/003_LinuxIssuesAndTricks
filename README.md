@@ -1,5 +1,7 @@
 HP Pavilion DV6 AMD Fan Always Running
 
+2020 : Document Technical Issues I met and solutions I found with laptop running on Lubuntu 18.04 LTS
+
 # My problem : 
 * HP Pavilion DV6 US version (AMD with AMD/ATI GPU) laptop Fan always running at maximum after a while.
 * Using Lubuntu 18.04 (Light Ubuntu).
