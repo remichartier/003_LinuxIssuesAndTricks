@@ -4,6 +4,7 @@
 
 2. Use and adapt following command :
 
-```
-rename 's/^\Screenshot.from.(\d{4}).(\d{2}).(\d{2}).(\d{2}).(\d{2}).(\d{2})/$1$2$3_$4$5_$6_FileNameThatYouWantToGive/' *.png
-```
+
+`rename 's/^\Screenshot.from.(\d{4}).(\d{2}).(\d{2}).(\d{2}).(\d{2}).(\d{2})/$1$2$3_$4$5_$6_FileNameThatYouWantToGive/' *.png`
+
+
