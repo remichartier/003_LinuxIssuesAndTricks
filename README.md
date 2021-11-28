@@ -10,3 +10,5 @@
 
 - [Ubuntu/Debian : Activate Tap to Click on Touchpad](20211128_1035_ActivateTapToClickOnTouchpad.md)
 
+- [Linux : Capturing i1394 / Firewire MiniDV Videos on Linux](20211128_1045_CapturingI1394FirewireMiniDVVideosOnLinux.md)
+
