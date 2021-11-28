@@ -8,3 +8,5 @@
 
 - [Exemple of how to rename files on Linux Terminal / command line for screenshot files](20211119_1448_RenamingScreenshotFilesOnCommandLine_v01.md)
 
+- [Ubuntu/Debian : Activate Tap to Click on Touchpad](20211128_1035_ActivateTapToClickOnTouchpad.md)
+
