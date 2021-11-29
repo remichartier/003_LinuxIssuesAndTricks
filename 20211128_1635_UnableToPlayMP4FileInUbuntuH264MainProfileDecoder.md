@@ -28,3 +28,14 @@ This trick is from this webpage https://ourcodeworld.com/articles/read/980/unabl
 > `sudo apt-get install ubuntu-restricted-extras`
 
 > The ubuntu-restricted-extras package allows users to install ability to play popular non-free media formats, including DVD, MP3, Quicktime, and Windows Media formats. After running the commands, Ubuntu should be able immediately to play those videos that failed to play previously. If it doesn't, try restarting the computer and try to play the video again and it should work.
+
+Note : 
+- On Ubuntu 20.04 : 
+```
+Package libdvdread4 is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+E: Package 'libdvdread4' has no installation candidate
+```
+-----> Need to install libdvdread7 instead of libdvdread4
