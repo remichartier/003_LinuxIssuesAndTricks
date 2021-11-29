@@ -12,3 +12,5 @@
 
 - [Linux : Capturing i1394 / Firewire MiniDV Videos on Linux](20211128_1045_CapturingI1394FirewireMiniDVVideosOnLinux.md)
 
+- [Ubuntu : Unable to play MP4 file: H.264 (Main Profile) decoder is required to play the file, but is not installed](20211128_1635_UnableToPlayMP4FileInUbuntuH264MainProfileDecoder.md)
+
