@@ -17,3 +17,5 @@
 - [Linux : how to erase/wipe-out properly hard drives](20211128_1954_LinuxEraseHardDrives.md)
 
 - [VPN for Linux/Ubuntu : Proton VPN](20211220_2348_VPNForLinuxUbuntu.md)
+
+- [X1 Lenovo Linux Debian Audio card not detected](20211221_0010_ProblemAudioCardNotDetectedLenovoX1LinuxDebian.md)
