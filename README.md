@@ -16,7 +16,7 @@
 
   - Acer Aspire 17F (F5-771G) : Conversion Windows10 --> Debian : 
 
-    - ...
+    - ["No Bootable Device Found"]
 
 - Tools :
 
