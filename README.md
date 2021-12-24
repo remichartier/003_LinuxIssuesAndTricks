@@ -22,6 +22,8 @@
 
     - [UEFI Supervisor password not recognized](20211224_1444_AcerAspire17F_F5-771G_UEFI_SupervisorPasswordNotRecognized.md)
 
+  - [Ubuntu 20.04 : set Terminal to Dark Mode, windows to Dark mode](20211224_1641_Ubuntu20_04_setTerminalToDarkModeWindowsToDarkMode.md) 
+
 - Tools :
 
   - [Exemple of how to rename files on Linux Terminal / command line for screenshot files](20211119_1448_RenamingScreenshotFilesOnCommandLine_v01.md)
