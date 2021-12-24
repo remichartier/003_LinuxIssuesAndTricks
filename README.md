@@ -20,6 +20,8 @@
 
     - [Debian : change system language after installation](20211224_1427_DebianChangeSystemLanguageAfterInstallation.md)
 
+    - [UEFI Supervisor password not recognized](20211224_1444_AcerAspire17F_F5-771G_UEFI_SupervisorPasswordNotRecognized.md)
+
 - Tools :
 
   - [Exemple of how to rename files on Linux Terminal / command line for screenshot files](20211119_1448_RenamingScreenshotFilesOnCommandLine_v01.md)
