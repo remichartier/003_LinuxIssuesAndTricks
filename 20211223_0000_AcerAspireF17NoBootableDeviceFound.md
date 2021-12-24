@@ -16,7 +16,7 @@
 
 - As mentioned in https://itsfoss.com/no-bootable-device-found-ubuntu/ : 
 
-  - boot with F2 --> Enter UEFI/BIOS, menu boot, *re-enable Secure Boot*, and follow instructions from https://itsfoss.com/no-bootable-device-found-ubuntu/, ie : 
+Boot with F2 --> Enter UEFI/BIOS, menu boot, *re-enable Secure Boot*, and follow instructions from https://itsfoss.com/no-bootable-device-found-ubuntu/, ie : 
 
     - Step 1
 
