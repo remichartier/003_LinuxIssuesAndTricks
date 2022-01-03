@@ -140,13 +140,12 @@ https://forum.ubuntu-fr.org/viewtopic.php?id=2049598
 
 >> et redémarer.
 
+# Translation : 
 
-sudo gedit /etc/default/grub
+- `sudo gedit /etc/default/grub`
 
-Remplacer GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" par GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_hda_intel.dmic_detect=0" et sauvegarder.
+- Replace `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"` with `GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_hda_intel.dmic_detect=0"` and save.
 
-Then
+- Then `sudo update-grub`
 
-sudo update-grub
-
-et restart computer.
+- And then re-start computer.
