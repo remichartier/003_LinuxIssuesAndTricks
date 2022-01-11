@@ -8,6 +8,8 @@
 
   - [Ubuntu 20.04 : Enable Hibernate on Lenovo Ideapad Gaming 3i laptop](20211116_1650_Ubuntu20_04_EnableHibernateLenovoIdeapad3iGaminglaptop.md)
 
+  - [Ubuntu 20.04 : Command Line disable password to trigger Hibernate, Enable after Hibernating](20220110_2314_Ubuntu20_04_CommandLineDisablePasswordToTriggerHibernateEnableAfterHibernating.md)
+
   - [Ubuntu/Debian : Activate Tap to Click on Touchpad](20211128_1035_ActivateTapToClickOnTouchpad.md)
 
   - [Ubuntu : Unable to play MP4 file: H.264 (Main Profile) decoder is required to play the file, but is not installed](20211128_1635_UnableToPlayMP4FileInUbuntuH264MainProfileDecoder.md)
