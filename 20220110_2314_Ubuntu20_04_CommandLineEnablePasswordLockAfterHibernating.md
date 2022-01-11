@@ -1,4 +1,4 @@
-# Ubuntu20_04 : Command Line Disable Password To Trigger Hibernate, and Enable Password Lock After Hibernating
+# Ubuntu20_04 : Command Line Enable Password Lock After Hibernating
 
 Solution found in https://askubuntu.com/questions/148690/how-do-i-lock-the-screen-after-resuming-from-hibernation
 
