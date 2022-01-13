@@ -9,7 +9,7 @@ which hibernate
 sudo visudo /etc/sudoers
 ```
 - Add the following line : 
-`<username> ALL= NOPASSWD: /usr/bin/hibernate`
+`<username> ALL= NOPASSWD: /usr/sbin/hibernate`
 
 ```
 CTRL + O for saving
