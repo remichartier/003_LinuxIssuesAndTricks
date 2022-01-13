@@ -6,9 +6,13 @@
 
   - [Ubuntu : disable splash screen + enable verbose mode at boot and shutdown](20211116_2117_Ubuntu_disableSplashScreenBootAndShutdown.md)
 
-  - [Ubuntu 20.04 : Enable Hibernate on Lenovo Ideapad Gaming 3i laptop](20211116_1650_Ubuntu20_04_EnableHibernateLenovoIdeapad3iGaminglaptop.md)
+  - Hibernate : 
 
-  - [Ubuntu 20.04 : Command Line Enable Password Lock after Hibernating](20220110_2314_Ubuntu20_04_CommandLineEnablePasswordLockAfterHibernating.md)
+    - [Ubuntu 20.04 LTS : Enable Hibernate on Lenovo Ideapad Gaming 3i laptop](20211116_1650_Ubuntu20_04_EnableHibernateLenovoIdeapad3iGaminglaptop.md)
+
+    - [Ubuntu 20.04 LTS : Command Line Enable Password Lock after Hibernating](20220110_2314_Ubuntu20_04_CommandLineEnablePasswordLockAfterHibernating.md)
+
+    - [Ubuntu 20.04 LTS : Run Sudo Hibernate command without password](20220112_2251_Ubuntu20_04LTSRunSudoHibernateCommandWithoutPassword.md)
 
   - [Ubuntu/Debian : Activate Tap to Click on Touchpad](20211128_1035_ActivateTapToClickOnTouchpad.md)
 
