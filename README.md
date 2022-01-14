@@ -14,6 +14,8 @@
 
     - [Ubuntu 20.04 LTS : Run Sudo Hibernate command without password](20220112_2251_Ubuntu20_04LTSRunSudoHibernateCommandWithoutPassword.md)
 
+    - [Hibernate menu : 2 interesting webpages](20220113_2223_HibernateMenu2InterestingWebpages.md)
+
   - [Ubuntu/Debian : Activate Tap to Click on Touchpad](20211128_1035_ActivateTapToClickOnTouchpad.md)
 
   - [Ubuntu : Unable to play MP4 file: H.264 (Main Profile) decoder is required to play the file, but is not installed](20211128_1635_UnableToPlayMP4FileInUbuntuH264MainProfileDecoder.md)
