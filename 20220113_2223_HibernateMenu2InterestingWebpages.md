@@ -1,4 +1,4 @@
-# Hibernate menu : 2 interesting webpages
+# Hibernate menu : 3 interesting webpages
 
 - https://github.com/arelange/gnome-shell-extension-hibernate-status.
 
@@ -27,3 +27,17 @@ Reboot & Test it..
 
   - It shows how to use extensions app to try to enable Hibernate buttons in the menus
 
+- https://tipsonubuntu.com/2017/04/13/shutdown-hibernate-ubuntu-17-04-lid-closed/
+
+gedit /etc/systemd/logind.conf
+
+When the files opens, uncomment the line #HandleLidSwitch=suspend by removing # at its beginning, and change the value to:
+
+HandleLidSwitch=poweroff, shutdown / power off Ubuntu when lid is closed.
+HandleLidSwitch=hibernate, hibernate Ubuntu when lid is closed.
+HandleLidSwitch=ignore, do nothing.
+HandleLidSwitch=suspend, suspend laptop when lid is closed.
+
+Save the file and finally restart the Systemd service to apply changes via command:
+
+systemctl restart systemd-logind.service
