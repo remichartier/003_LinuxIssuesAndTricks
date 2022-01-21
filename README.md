@@ -30,7 +30,9 @@
 
     - [UEFI Supervisor password not recognized](20211224_1444_AcerAspire17F_F5-771G_UEFI_SupervisorPasswordNotRecognized.md)
 
-  - [Ubuntu 20.04 : set Terminal to Dark Mode, windows to Dark mode](20211224_1641_Ubuntu20_04_setTerminalToDarkModeWindowsToDarkMode.md) 
+  - [Ubuntu 20.04 : set Terminal to Dark Mode, windows to Dark mode](20211224_1641_Ubuntu20_04_setTerminalToDarkModeWindowsToDarkMode.md)
+
+  - [Ubuntu 20.04 : Full copy of one bootable SSD disk to another](20211224_1641_Ubuntu20_04_FullCopyOfOneBootableSSDDiskToAnother.md)
 
 - Tools :
 
