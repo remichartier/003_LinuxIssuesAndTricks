@@ -19,6 +19,9 @@
 >>- If we do `sudo fdisk –l` again, we can see that, despite not formatting /dev/sdc at all, it now has the same partitions as /dev/sda.
 
 >>- Additionally, if we mount all of the partitions, we can see that all of the data on /dev/sdc is now the same as on /dev/sda.
+>>  - Example : 
+>>    - `sudo diff -rq /dev/sda1 /dev/sdc1`
+>>    - `sudo diff -rq /dev/sda2 /dev/sdc2`
 
 >>- Note: you may have to restart your computer to be able to mount the newly cloned drive.
 
