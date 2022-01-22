@@ -27,4 +27,6 @@
 
 >>- Unlike other utilities, dd copies absolutely everything from one drive to another – that means that you can even recover files deleted from the original drive in the clone!
 
+I did this procedure. I was able to physically copy one bootable SSD to another, and boot on the copied SSD (Linux Ubuntu).
+
 
