@@ -12,6 +12,7 @@
 
   - On Ubuntu / Linux : 
     - Use Libreoffice Draw, open the .pdf with Draw, and we can copy / paste the image of a signature into the .pdf document, and then print as .pdf.
+    - For more general Pdf editors under Linux --> https://itsfoss.com/pdf-editors-linux/ 
   
   - OS Agnostic : 
     >>- When you sign documents online, you are doing the same thing in the eyes of the law as if you were using a pen to sign your name on the dotted line of a physical document.
@@ -32,7 +33,11 @@
         - Drag your signature into the document and drop it in the desired field.
         - Send the PDF to the requester.
 
-    >>- free DocuSign Plan
+    >>- Free DocuSign Plan
         - Get the free DocuSign Plan. With DocuSign Free Edition, you can sign as many documents as you want. You can also easily access all of your signed documents from DocuSign's secure cloud storage. (https://www.docusign.com/products-and-pricing)--> https://app.docusign.com/. We can download mobile app as well (DocuSign - Upload & Sign Docs) to create signatures manually.
+
+    >>- Free Adobe Online account : Sign in or create a free account, Get access to Acrobat online tools. Convert, share, fill, and sign. --> Allows to create signature on mobile and upload on account.
+
+
       - 
       
