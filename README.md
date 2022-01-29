@@ -50,8 +50,10 @@
 
   - [Synchronize Microsoft Office Contacts and Calendars on Samsung Galaxy S8 Android phone](20220112_2031_SynchronizeMicrosoftOfficeContactsAndCalendarsOnSamsungGalaxyS8AndroidPhone.md)
 
-# Other Windows / Linux tricks
+# Other computer/digital tricks
 
 - [Signing .pdf without having to print, scan, and email](20220128_1812_SigningPdfWithoutHavingToPrintScanEmail.md)
+
+- [Make written signature images transparent](20220128_1812_MakeWrittenSignatureImagesTransparent.md)
 
 
