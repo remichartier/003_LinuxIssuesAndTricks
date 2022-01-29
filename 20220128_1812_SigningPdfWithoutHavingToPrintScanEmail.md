@@ -17,11 +17,11 @@
     >>- Is it as legally binding as ink and paper? --> Yes, thanks to the E-Sign Act, which holds that electronic signatures carry the same force as handwritten signatures in the United States.
     >>- here’s the straightforward process you can use to create electronic signature PDFs. The simplest way to do it is to use one of the three major electronic signature software products: Adobe Acrobat, Microsoft Edge, or Docusign.
     >>- How to sign a PDF with Microsoft Edge
-      >>- Open the PDF in Microsoft Edge.
-      >>- Click the "Draw" icon in the top right.
-      >>- Draw your signature wherever you want in the PDF.
-      >>- Click on the "Save" icon in the top right.
-      >>- Send the modified PDF to the requester.
+      - >>- Open the PDF in Microsoft Edge.
+      - >>- Click the "Draw" icon in the top right.
+      - >>- Draw your signature wherever you want in the PDF.
+      - >>- Click on the "Save" icon in the top right.
+      - >>- Send the modified PDF to the requester.
     
     >>- How to sign a PDF with DocuSign
       >>- Sign into DocuSign.
