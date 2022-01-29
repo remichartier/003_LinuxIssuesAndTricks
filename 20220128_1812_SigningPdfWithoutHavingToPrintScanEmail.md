@@ -2,7 +2,8 @@
 
 - Sources : 
   - https://www.fool.com/the-blueprint/how-to-sign-a-pdf/
-  -  https://itsfoss.com/pdf-editors-linux/
+  - https://itsfoss.com/pdf-editors-linux/
+  - https://www.docusign.com/products-and-pricing for "free DocuSign Plan"
 
 - What I found : 
 
@@ -30,4 +31,8 @@
         - Click "Sign a document now" and choose the PDF sent to your inbox.
         - Drag your signature into the document and drop it in the desired field.
         - Send the PDF to the requester.
+
+  >>- free DocuSign Plan
+      - Get the free DocuSign Plan. With DocuSign Free Edition, you can sign as many documents as you want. You can also easily access all of your signed documents from DocuSign's secure cloud storage. (https://www.docusign.com/products-and-pricing)--> https://app.docusign.com/
+      - 
       
