@@ -37,7 +37,3 @@
         - Get the free DocuSign Plan. With DocuSign Free Edition, you can sign as many documents as you want. You can also easily access all of your signed documents from DocuSign's secure cloud storage. (https://www.docusign.com/products-and-pricing)--> https://app.docusign.com/. We can download mobile app as well (DocuSign - Upload & Sign Docs) to create signatures manually.
 
     >>- Free Adobe Online account : Sign in or create a free account, Get access to Acrobat online tools. Convert, share, fill, and sign. --> Allows to create signature on mobile and upload on account.
-
-
-      - 
-      
