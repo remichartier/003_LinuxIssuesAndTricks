@@ -28,6 +28,9 @@ which hibernate
 
 sudoedit /etc/sudoers/*USER*
 ```
-- Add *USER* ALL=(ALL) ALL
-- And *USER* ALL=(root) NOPASSWD:*PATH*
+- Add 
+```
+*USER* ALL=(ALL) ALL
+*USER* ALL=(root) NOPASSWD:*PATH*
+```
 - Save file (CTRL + O and CTRL + X)
