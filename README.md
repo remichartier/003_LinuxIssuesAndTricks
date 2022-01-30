@@ -34,7 +34,7 @@
 
   - [Ubuntu 20.04 : Full copy of one bootable SSD disk to another](20211224_1641_Ubuntu20_04_FullCopyOfOneBootableSSDDiskToAnother.md)
 
-  - [Linux / Windows 10 Dual Boot : How to directly reboot from Linux to Windows independently of the primary boot OS](20220130_1531_LinuxWindows10DualBootHowtoSirectlyRebootFromLinuxToWindowsIndependentlyOfThePrimaryBootOS)
+  - [Linux / Windows 10 Dual Boot : How to directly reboot from Linux to Windows independently of the primary boot OS](20220130_1531_LinuxWindows10DualBootHowtoSirectlyRebootFromLinuxToWindowsIndependentlyOfThePrimaryBootOS.md)
 
 - Tools :
 
