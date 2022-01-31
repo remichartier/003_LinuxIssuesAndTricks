@@ -11,14 +11,17 @@ sudo visudo /etc/sudoers
 ```
 - Add the following line : 
 `<username> ALL= NOPASSWD: /usr/sbin/hibernate`
+- Note, I wonder if we should remove the spaces ?
+`<username> ALL=NOPASSWD:/usr/sbin/hibernate`
+
 
 ```
 CTRL + O for saving
 CTRL + X for quitting
 ```
-And then next time I do a `sudo hibernate`, system will start hibernation process without asking for a password.
+And then next time I do a `sudo hibernate` (or `hibernate`, system will start hibernation process without asking for a password.
 
-## 2nd solution which worked for me
+## 2nd solution but not sure it worked for me
 - Solution found in : https://giuseppe998e.medium.com/how-to-directly-reboot-from-linux-to-windows-e6f7d7c1a3fe
 
 Replacing *USER* with your username and *PATH* with the path getted using `which hibernate`
@@ -26,7 +29,7 @@ Replacing *USER* with your username and *PATH* with the path getted using `which
 which hibernate
 /usr/sbin/hibernate
 
-sudoedit /etc/sudoers/*USER*
+sudoedit /etc/sudoers/*USER*  -> it does not have this file ...
 ```
 - Add 
 ```
