@@ -60,4 +60,4 @@
 
 # Unresolved issues
 
-- [Edge Browser on Linux : Impossible to add work profile.md](20220130_1838_EdgeBrowserOnLinuxImpossibleToAddWorkProfile.md)
+- [Edge Browser on Linux : Impossible to add work profile](20220130_1838_EdgeBrowserOnLinuxImpossibleToAddWorkProfile.md)
