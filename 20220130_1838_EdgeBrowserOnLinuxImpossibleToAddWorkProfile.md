@@ -14,3 +14,7 @@ Problem :
 - On Linux/Ubuntu, Edge browser is not accepting work account signin (like firstname.lastname@company.com) while adding an Edge profile. Doing a "sign-in to sync data" and specifying a work account leads to error message : 
 
 `We couldn't find an account with that email address or phone number. Would you like to sign up for a new Microsoft account? Sign up`
+
+Explanations found (extract from sources specified above) :
+
+- It is currently not possible to sign-in to Edge sync with a work account (AAD) on the Linux platform. Only personal Microsoft accounts are supported at this time. You can find more info here: https://techcommunity.microsoft.com/t5/articles/users-can-now-sign-in-and-sync-their-favorites-with-...
