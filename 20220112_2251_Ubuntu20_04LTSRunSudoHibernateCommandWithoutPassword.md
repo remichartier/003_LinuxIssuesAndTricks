@@ -1,6 +1,6 @@
 # Ubuntu 20.04 LTS : Run Sudo Hibernate command without password
 
-## 1st solution but it did not work for me 
+## 1st solution which worked for me 
 - Solution found in https://www.reddit.com/r/archlinux/comments/bkp591/systemctl_suspend_and_hibernate_with_no_root/ among other pages on similar topic.
   
 ```
@@ -10,10 +10,7 @@ which hibernate
 sudo visudo /etc/sudoers
 ```
 - Add the following line : 
-`<username> ALL= NOPASSWD: /usr/sbin/hibernate`
-- Note, I wonder if we should remove the spaces ?
 `<username> ALL=NOPASSWD:/usr/sbin/hibernate`
-
 
 ```
 CTRL + O for saving
