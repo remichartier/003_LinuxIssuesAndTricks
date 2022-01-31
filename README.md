@@ -58,4 +58,6 @@
 
 - [Make written signature images transparent](20220128_1812_MakeWrittenSignatureImagesTransparent.md)
 
+# Unresolved issues
 
+- [Edge Browser on Linux : Impossible to add work profile.md](20220130_1838_EdgeBrowserOnLinuxImpossibleToAddWorkProfile.md)
