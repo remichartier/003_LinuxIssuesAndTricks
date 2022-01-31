@@ -5,6 +5,6 @@ Solution found in https://askubuntu.com/questions/148690/how-do-i-lock-the-scree
 - added an alias into ~/.bashrc file
 
 ```
-alias hibern='sudo echo "Hibernating..."; gnome-screensaver-command -l; sudo hibernate;'
+alias hibern='echo "Hibernating..."; gnome-screensaver-command -l; sudo hibernate;'
 ```
 So that it locks the screen before hibernating.
