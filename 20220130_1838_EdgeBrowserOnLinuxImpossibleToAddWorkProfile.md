@@ -1,4 +1,4 @@
-# Edge Browser on Linux : Impossible to add work profile.md
+# Edge Browser on Linux : Impossible to add work profile
 
 Sources : 
 - https://techcommunity.microsoft.com/t5/discussions/how-to-setup-a-work-profile-on-edge-dev-channel-on-linux-ubuntu/m-p/2305837
