@@ -36,6 +36,9 @@
 
   - [Linux / Windows 10 Dual Boot : How to directly reboot from Linux to Windows independently of the primary boot OS](20220130_1531_LinuxWindows10DualBootHowtoSirectlyRebootFromLinuxToWindowsIndependentlyOfThePrimaryBootOS.md)
 
+  - [Linux / Windows 10 Dual Boot : How to directly reboot from Windows to Ubuntu independently of the primary boot OS](20220131_2248_LinuxWindows10DualBootHowtoDirectlyRebootFromWindowsToUbuntuIndependentlyOfThePrimaryBootOS.md)
+
+
 - Tools :
 
   - [Exemple of how to rename files on Linux Terminal / command line for screenshot files](20211119_1448_RenamingScreenshotFilesOnCommandLine_v01.md)
