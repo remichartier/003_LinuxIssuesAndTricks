@@ -2,15 +2,15 @@
 
 Source : Method 3 out of 4, from this article : https://www.intowindows.com/4-ways-to-change-the-boot-order-in-windows-10/
 
-From Windows 10 : 
-==================
-- Settings
-- Update & Security
-- Recovery
-- Advanced Startup
-- Restart Now
-- Choose Options
-- Use a device
+- From Windows 10 : 
+  - Settings
+  - Update & Security
+  - Recovery
+  - Advanced Startup
+  - Restart Now
+  - Choose Options
+  - Use a device
+
 Then select the OS you would like to boot on (Ubuntu for instance).
 It will boot on Ubuntu even if Priority boot was Windows.
 
