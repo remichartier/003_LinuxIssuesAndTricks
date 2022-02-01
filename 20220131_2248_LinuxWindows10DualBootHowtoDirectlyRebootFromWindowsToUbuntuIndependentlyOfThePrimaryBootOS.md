@@ -16,5 +16,6 @@ It will boot on Ubuntu even if Priority boot was Windows.
 
 This is useful if controling the computer remotely and not being physically local to the computer to switch boot manually from Windows to Ubuntu.
 
-Note : I noticed that if accessing the computer remotely via Remote Desktop Sharing, the option "Advanced Startup" may not be available sometimes, possibly due to some access right issues when logged remotely.
+Note : 
+- I noticed that if accessing the computer remotely via Remote Desktop Sharing, the option "Advanced Startup" may not be available sometimes, possibly due to some access right issues when logged remotely.
 
