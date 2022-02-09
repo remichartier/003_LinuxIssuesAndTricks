@@ -61,6 +61,8 @@
 
 - [Make written signature images transparent](20220128_1812_MakeWrittenSignatureImagesTransparent.md)
 
+- [Frequent Terminal Commands Used](20220208_2303_FrequentTerminalCommandsUsed.md)
+
 # Unresolved issues
 
 - [Edge Browser on Linux : Impossible to add work profile](20220130_1838_EdgeBrowserOnLinuxImpossibleToAddWorkProfile.md)
