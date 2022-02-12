@@ -16,7 +16,6 @@ sudo rename 's/IMG\_//' *.jpg
 sudo rename 's/VID\_//' *.mp4
 
 sudo rename 's/2014/2015/' *.jpg
-
 ```
 
 ## Install .deb files
