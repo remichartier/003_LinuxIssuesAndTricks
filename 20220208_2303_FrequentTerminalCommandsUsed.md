@@ -22,3 +22,16 @@ sudo rename 's/2014/2015/' *.jpg
 ## Install .deb files
 
 `sudo apt install -f`
+
+## Grep options
+```
+-R or -r --> recursive
+-i --> ignore case
+-e --> use regex patterns for search
+```
+
+## tee
+
+For redirecting in parallel stdout to a file
+`<cmd> | tee log.txt`
+
