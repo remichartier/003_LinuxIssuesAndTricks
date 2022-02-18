@@ -63,6 +63,10 @@
 
 - [Frequent Terminal Commands Used](20220208_2303_FrequentTerminalCommandsUsed.md)
 
+- [Python](20220217_2311_Python.md)
+
+- [Git / Github](20220217_2312_Git_Github.md)
+
 # Unresolved issues
 
 - [Edge Browser on Linux : Impossible to add work profile](20220130_1838_EdgeBrowserOnLinuxImpossibleToAddWorkProfile.md)
