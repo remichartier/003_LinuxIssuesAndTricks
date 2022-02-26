@@ -22,3 +22,7 @@ GRUB_CMDLINE_LINUX_DEFAULT=""
 ## Sources : 
 
 [1] : [How do I disable the boot splash screen, and only show kernel and boot text instead?](https://askubuntu.com/questions/33416/how-do-i-disable-the-boot-splash-screen-and-only-show-kernel-and-boot-text-inst)
+
+# Modifying Boot background image : 
+
+- One example here : https://ubuntuhandbook.org/index.php/2020/05/login-screen-background-ubuntu-20-04/#:~:text=Besides%20typing%20the%20path%20to,it%20asks%20and%20hit%20Enter.
