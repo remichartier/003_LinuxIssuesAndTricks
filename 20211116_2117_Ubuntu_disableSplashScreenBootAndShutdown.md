@@ -26,3 +26,4 @@ GRUB_CMDLINE_LINUX_DEFAULT=""
 # Modifying Boot background image : 
 
 - One example here : https://ubuntuhandbook.org/index.php/2020/05/login-screen-background-ubuntu-20-04/#:~:text=Besides%20typing%20the%20path%20to,it%20asks%20and%20hit%20Enter.
+- Also : https://askubuntu.com/questions/1227070/how-do-i-change-login-screen-theme-or-background-in-ubuntu-20-04
