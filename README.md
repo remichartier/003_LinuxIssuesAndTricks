@@ -67,6 +67,9 @@
 
 - [Git / Github](20220217_2312_Git_Github.md)
 
+- [Linux commands on Windows 10](202200302_2230_LinuxCommandsOnWindows10.md)
+
+
 # Unresolved issues
 
 - [Edge Browser on Linux : Impossible to add work profile](20220130_1838_EdgeBrowserOnLinuxImpossibleToAddWorkProfile.md)
