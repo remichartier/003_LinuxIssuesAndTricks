@@ -51,6 +51,9 @@
 
   - [Linux / Ubuntu : taking screen video](20211228_1009_LinuxUbuntuTakingScreenVideo.md)
 
+  - [Ubuntu 18.04 + 20.04 : find Suspend even if not in menus](20220311_2234_Ubuntu1804And2004FindSuspendEvenIfNotInMenus.md)
+  
+
 # Android Smartphones issues and tricks
 
   - [Synchronize Microsoft Office Contacts and Calendars on Samsung Galaxy S8 Android phone](20220112_2031_SynchronizeMicrosoftOfficeContactsAndCalendarsOnSamsungGalaxyS8AndroidPhone.md)
