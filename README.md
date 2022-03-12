@@ -72,6 +72,8 @@
 
 - [Linux commands on Windows 10](202200302_2230_LinuxCommandsOnWindows10.md)
 
+- [Remote Desktop Control solutions on different OS and Sleep / Wakeup functionalities](202200302_2230_RemoteDesktopControlSolutionsOnDifferentOSAndSleepWakeupFunctionalities.md)
+
 
 # Unresolved issues
 
