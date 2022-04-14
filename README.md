@@ -38,6 +38,7 @@
 
   - [Linux / Windows 10 Dual Boot : How to directly reboot from Windows to Ubuntu independently of the primary boot OS](20220131_2248_LinuxWindows10DualBootHowtoDirectlyRebootFromWindowsToUbuntuIndependentlyOfThePrimaryBootOS.md)
 
+  - [Linux / Ubuntu : Remove green background on Folders listed in command Terminal](20220413_1930_LinuxUbuntuRemoveGreenBackgroundOnFoldersListedInCommandTerminal.md)
 
 - Tools :
 
