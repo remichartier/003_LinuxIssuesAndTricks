@@ -22,5 +22,7 @@ ResultActive=yes
 Identity=unix-user:*
 Action=org.freedesktop.login1.hibernate;org.freedesktop.login1.handle-hibernate-key;org.freedesktop.login1;org.freedesktop.login1.hibernate-multiple-sessions;org.freedesktop.login1.hibernate-ignore-inhibit
 ResultActive=yes
+
+
 into /etc/polkit-1/localauthority/10-vendor.d/com.ubuntu.desktop.pkla
 ```
