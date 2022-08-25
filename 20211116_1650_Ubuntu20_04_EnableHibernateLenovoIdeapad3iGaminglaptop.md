@@ -1,4 +1,4 @@
-# Ubuntu 20.04 : Enable Hibernate on Lenove Ideapad 3i Gaming laptop
+# Ubuntu 20.04 : Enable Hibernate on Lenovo Ideapad 3i Gaming laptop
 
 ## Configure properly swapfile size
 
