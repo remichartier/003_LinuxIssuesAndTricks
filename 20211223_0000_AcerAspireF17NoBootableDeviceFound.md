@@ -10,7 +10,7 @@
 
 - At the end of install, installer request to eject USB stick and reboot.
 
-- Then we get this black screen at the boot, saying "No Bootable Devce Found", like in article https://itsfoss.com/no-bootable-device-found-ubuntu/.
+- Then we get this black screen at the boot, saying "No Bootable Device Found", like in article https://itsfoss.com/no-bootable-device-found-ubuntu/.
 
 ## Solution
 
