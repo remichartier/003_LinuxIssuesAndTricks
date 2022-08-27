@@ -58,9 +58,10 @@ In next screen, type Yes and click enter.
 No_Bootable_Device_Found_7
 
     - Step 8
-Once we have added it as trused EFI file to be executed, press F10 to save and exit.
+Once we have added it as trusted EFI file to be executed, press F10 to save and exit.
 
-Save and exist firmware settings
+Save and exist firmware settings,
+    
 Reboot your system and this time you should be seeing the familiar Grub screen. Even if you do not see Grub screen, you should at least not be seeing “no bootable device found” screen anymore. You should be able to boot into Ubuntu.
 
 If your Grub screen was messed up after the fix but you got to login into it, you can reinstall Grub to boot into the familiar purple Grub screen of Ubuntu.
