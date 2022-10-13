@@ -49,3 +49,13 @@ It lists all folders (including repetitive sub-folders) with most disk space usa
 here is the tree command. Install it via sudo apt-get install tree, and type the following:
 
 '''tree -h'''
+
+## Get list of packages installed on Ubuntu
+
+Source: https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubuntu-linux/
+
+```apt list --installed```
+
+Get if a specific package is installed:
+
+```apt list apache2```
