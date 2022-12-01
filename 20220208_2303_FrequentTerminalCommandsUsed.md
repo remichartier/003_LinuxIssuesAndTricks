@@ -59,3 +59,17 @@ Source: https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubu
 Get if a specific package is installed:
 
 ```apt list apache2```
+
+## Docker commands
+
+### Checking Docker disk space usage [The Docker Way]
+
+Source https://linuxhandbook.com/docker-disk-space-usage/
+
+```docker system df```
+
+More details:
+```docker system df -v```
+
+### Checking docker image sizes
+```docker image ls```
