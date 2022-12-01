@@ -115,3 +115,8 @@ Again, make sure you replace the containers names in the below command with the 
 
 Run the docker ```ps --all``` command again to see that all containers are gone.
 
+### Run GUI applications from Docker
+
+Source: https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-docker/#:~:text=How%20to%20Run%20GUI%20Based%20Applications%20inside%20Docker%3F,install%20firefox%2C%20jupyter%20%26%20gedit.%20...%20More%20items
+
+
