@@ -73,3 +73,15 @@ More details:
 
 ### Checking docker image sizes
 ```docker image ls```
+
+Source https://stackoverflow.com/questions/18497688/run-a-docker-image-as-a-container#:~:text=Do%20the%20following%20steps%3A%201%20%24%20docker%20images,can%20also%20specify%20an%20image%20ID%20%28no%20tag_name%29.
+
+```docker images```
+
+You will get a list of all local Docker images with the tags specified.
+
+```docker run image_name:tag_name```
+
+If you didn't specify tag_name it will automatically run an image with the 'latest' tag.
+
+Instead of image_name, you can also specify an image ID (no tag_name).
