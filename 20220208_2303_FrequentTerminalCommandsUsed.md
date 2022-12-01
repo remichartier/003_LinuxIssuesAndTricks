@@ -85,3 +85,33 @@ You will get a list of all local Docker images with the tags specified.
 If you didn't specify tag_name it will automatically run an image with the 'latest' tag.
 
 Instead of image_name, you can also specify an image ID (no tag_name).
+
+### Stop, start, and name containers
+
+Source https://docs.docker.com/language/nodejs/run-containers/
+
+Docker containers can be started, stopped and restarted. When we stop a container, it is not removed but the status is changed to stopped and the process inside of the container is stopped. When we ran the docker ps command, the default output is to only show running containers. If we pass the `--all` or `-a` for short, we will see all containers on our system whether they are stopped or started.
+
+```docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
+ce02b3179f0f        node-docker         "docker-entrypoint.s…"   16 minutes ago      Exited (0) 5 minutes ago                        wonderful_kalam
+ec45285c456d        node-docker         "docker-entrypoint.s…"   28 minutes ago      Exited (0) 20 minutes ago                       agitated_moser
+fb7a41809e5d        node-docker         "docker-entrypoint.s…"   37 minutes ago      Exited (0) 36 minutes ago                       goofy_khayyam
+```
+
+Now, list all the containers again using the ps command.
+
+```docker ps --all```
+
+```docker stop wonderful_kalam```
+
+Now that all of our containers are stopped, let’s remove them. When a container is removed, it is no longer running nor is it in the stopped status. However, the process inside the container has been stopped and the metadata for the container has been removed.
+
+To remove a container, simply run the docker rm command passing the container name. You can pass multiple container names to the command in one command.
+
+Again, make sure you replace the containers names in the below command with the container names from your system.
+
+```docker rm wonderful_kalam```
+
+Run the docker ```ps --all``` command again to see that all containers are gone.
+
