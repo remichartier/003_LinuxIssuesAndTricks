@@ -60,6 +60,20 @@ Get if a specific package is installed:
 
 ```apt list apache2```
 
+## Check available ports on Ubuntu
+
+Source: https://learnubuntu.com/check-open-ports/#:~:text=How%20to%20Check%20Open%20Ports%20in%20Ubuntu%201,open%20files.%20...%203%203.%20Using%20ss%20Command
+
+```
+sudo ss -ltunp |grep 8080
+
+sudo ss -ltunp
+
+ss -ltunp
+
+```
+
+
 ## Docker commands
 
 ### Checking Docker disk space usage [The Docker Way]
