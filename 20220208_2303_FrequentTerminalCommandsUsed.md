@@ -1,4 +1,4 @@
-# Frequent Terminal Commands Used
+# Frequent Linux/Ubuntu Terminal Commands Used
 
 ## Quick Find Terminal command :
 
@@ -72,7 +72,16 @@ sudo ss -ltunp
 ss -ltunp
 
 ```
+## Get computer IP address or DNS name
+```
+hostname
 
+hostname -I
+
+ip addr
+
+ifconfig
+```
 
 ## Docker commands
 
@@ -129,6 +138,10 @@ Again, make sure you replace the containers names in the below command with the 
 
 Run the docker ```ps --all``` command again to see that all containers are gone.
 
+### List specific docker container status
+
+```docker ps --filter name="name of the container"```
+
 ### Run GUI applications from Docker
 
 Source: https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-docker/#:~:text=How%20to%20Run%20GUI%20Based%20Applications%20inside%20Docker%3F,install%20firefox%2C%20jupyter%20%26%20gedit.%20...%20More%20items
@@ -137,5 +150,22 @@ Source: https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-d
 
 Idea is to use another container with /bin/bash access, mount it on the volume, and access to this volume via this container. Example:
 `docker run -it -v floating-server-volume:/mnt ubuntu /bin/bash`
+
+### Run docker container in background and access it later
+Example:
+```
+docker run -d --name <container_name> -v <volume_name>:/data <docker_image_name>
+
+docker exec -it  <container_name_or_ID> /bin/bash
+```
+When exiting docker, container will continue to keep active and will not exit
+
+### Docker stop/restart/rm container
+First get the list of containers, with their names and IDs, then use docker commands to stop/start/restart/rm them
+```
+docker ps -a
+
+docker (start/stop/rm) <container_name_or_id>
+```
 
 
