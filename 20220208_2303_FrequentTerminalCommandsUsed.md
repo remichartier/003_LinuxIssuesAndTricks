@@ -133,4 +133,9 @@ Run the docker ```ps --all``` command again to see that all containers are gone.
 
 Source: https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-docker/#:~:text=How%20to%20Run%20GUI%20Based%20Applications%20inside%20Docker%3F,install%20firefox%2C%20jupyter%20%26%20gedit.%20...%20More%20items
 
+### Accessing volume folder eventhrough no access rights to /var/lib/docker folder on Ubuntu
+
+Idea is to use another container with /bin/bash access, mount it on the volume, and access to this volume via this container. Example:
+`docker run -it -v floating-server-volume:/mnt ubuntu /bin/bash`
+
 
