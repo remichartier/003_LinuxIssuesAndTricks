@@ -27,6 +27,7 @@ sudo rename 's/2014/2015/' *.jpg
 -R or -r --> recursive
 -i --> ignore case
 -e --> use regex patterns for search
+-v --> exclude pattern
 ```
 
 ## tee
