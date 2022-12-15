@@ -84,7 +84,83 @@ ip addr
 ifconfig
 ```
 
+## Unzip a 7z file (7zip)
+
+Source: https://askubuntu.com/questions/219392/how-can-i-uncompress-a-7z-file
+
+First install the according package sudo apt install p7zip-full
+
+use x flag to extract files with full path
+use -o flag to set output directory
+7z x <archive_name> -o{Directory}
+
+for example
+
+7z x file.7z -o/home/michael/Documents/NewFolder
+
+Notice that there is no space between -o and the output directory. If the file was encrypted, it will automatically ask for the password.
+
+
 ## Docker commands
+
+### What is docker?
+
+Source: https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-docker-on-ubuntu
+
+* A tool that is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments. 
+* Multiple containers run on the same hardware
+* Maintains isolated applications
+
+### Interesting Docker information sources / links
+
+* https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+* https://docs.docker.com/language/nodejs/run-containers/
+* https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-docker/
+
+### Difference images/containers, build images, run containers, run in detached mode, 
+
+Source: https://docs.docker.com/language/nodejs/run-containers/
+
+We created our image using the command docker build. Now that we have an image, we can run that image and see if our application is running correctly.
+
+A container is a normal operating system process except that this process is isolated and has its own file system, its own networking, and its own isolated process tree separate from the host.
+
+To run an image inside of a container, we use the docker run command. The docker run command requires one parameter and that is the image name.
+
+### Docker run -it -d, docker exect, /bin/bash, -v for volumes
+
+Source: https://stackoverflow.com/questions/18497688/run-a-docker-image-as-a-container#:~:text=Do%20the%20following%20steps%3A%201%20%24%20docker%20images,can%20also%20specify%20an%20image%20ID%20%28no%20tag_name%29.
+
+Examples:
+```
+ docker run -i -t ubuntu:12.04 /bin/bash
+ 
+ docker run image_name:tag_name
+ 
+ docker run -d --restart=always -p 8080:80 image_name:version
+
+docker exec -it container_id /bin/bash
+
+docker run -d --name  container-name -p localhost:80:80 -v $HOME/myContainer/configDir:/myImage/configDir --restart=always image-name
+Where:
+
+--detach , -d        Run container in background and print container ID
+--name                Assign a name to the container
+--publish , -p        Publish a container’s port(s) to the host
+--volume , -v        Bind mount a volume
+--restart            Restart policy to apply when a container exits
+```
+
+There are two ways to run the image in the container:
+
+$ docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
+In detached mode:
+
+-d=false: Detached mode: Run container in the background, print new container id
+In interactive mode:
+
+-i :Keep STDIN open even if not attached
+
 
 ### Checking Docker disk space usage [The Docker Way]
 
@@ -172,6 +248,15 @@ docker (start/stop/rm) <container_name_or_id>
 ### Ubuntu: where docker files are created?
 
 Generally, /var/lib/docker
+
+### Upload file to a docker container
+
+Source: https://wangler.io/upload-a-file-to-a-docker-container/
+
+```
+docker cp missing_data.sql <container-id>:/missing_data.sql
+
+```
 
 
 
