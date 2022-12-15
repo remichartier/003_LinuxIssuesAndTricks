@@ -116,6 +116,7 @@ Source: https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-doc
 * https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 * https://docs.docker.com/language/nodejs/run-containers/
 * https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-docker/
+* https://www.kosli.com/blog/docker-commit-explained-a-guide-with-examples/
 
 ### Difference images/containers, build images, run containers, run in detached mode, 
 
@@ -126,6 +127,14 @@ We created our image using the command docker build. Now that we have an image, 
 A container is a normal operating system process except that this process is isolated and has its own file system, its own networking, and its own isolated process tree separate from the host.
 
 To run an image inside of a container, we use the docker run command. The docker run command requires one parameter and that is the image name.
+
+Source: https://www.kosli.com/blog/docker-commit-explained-a-guide-with-examples/
+
+An Overview of Basic Terms
+
+* Image: An image is a set of files, including the source/binaries and configuration needed for the application to run. An image is read only. We can create one by providing a Dockerfile to the docker build command. We can also create an image with the commit command from a container.
+
+* Container: A container is a version of the image, ready to run as an application. It contains the environment for the application to run (e.g., file systems, environment variables, port mappings, etc.). We can use either the create or run commands to create a container from an image. Create will only create the container, whereas run will also start it. A container need not be running once created; it can also be in the stopped state. The docker ps command lists the created containers.
 
 ### Docker run -it -d, docker exect, /bin/bash, -v for volumes
 
