@@ -118,6 +118,7 @@ Source: https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-doc
 * https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-docker/
 * https://www.kosli.com/blog/docker-commit-explained-a-guide-with-examples/
 * https://stackoverflow.com/questions/52980617/how-to-re-enter-to-docker-containter-prompt-after-exiting
+* https://vsupalov.com/6-docker-basics/ --> Docker images, containers, volumes, dockerfiles
 
 ### Difference images/containers, build images, run containers, run in detached mode, 
 
@@ -186,6 +187,10 @@ In detached mode:
 In interactive mode:
 
 -i :Keep STDIN open even if not attached
+
+### Exciting a container
+
+Soource: https://vsupalov.com/exit-docker-container/#:~:text=Exiting%20a%20Docker%20Container%201%20Just%20Stopping%20the,Alternative%20Workflow%20...%204%20Your%20Road%20Ahead%20
 
 
 ### Checking Docker disk space usage [The Docker Way]
