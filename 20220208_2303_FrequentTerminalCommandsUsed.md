@@ -117,6 +117,7 @@ Source: https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-doc
 * https://docs.docker.com/language/nodejs/run-containers/
 * https://www.geeksforgeeks.org/how-to-run-gui-based-applications-inside-docker/
 * https://www.kosli.com/blog/docker-commit-explained-a-guide-with-examples/
+* https://stackoverflow.com/questions/52980617/how-to-re-enter-to-docker-containter-prompt-after-exiting
 
 ### Difference images/containers, build images, run containers, run in detached mode, 
 
@@ -135,6 +136,22 @@ An Overview of Basic Terms
 * Image: An image is a set of files, including the source/binaries and configuration needed for the application to run. An image is read only. We can create one by providing a Dockerfile to the docker build command. We can also create an image with the commit command from a container.
 
 * Container: A container is a version of the image, ready to run as an application. It contains the environment for the application to run (e.g., file systems, environment variables, port mappings, etc.). We can use either the create or run commands to create a container from an image. Create will only create the container, whereas run will also start it. A container need not be running once created; it can also be in the stopped state. The docker ps command lists the created containers.
+
+Source: https://stackoverflow.com/questions/52980617/how-to-re-enter-to-docker-containter-prompt-after-exiting
+
+When you run following command it performs 2 operations.
+
+$ docker run -p 8081:80 --name eg -it epgg/eg bash
+It creates a container named eg
+It has only one purpose/process bash that you have overridden using cmd parameter.
+That means when bash shell is over/complete/exit container has no objective to run & hence your docker container will also entered into stopped stage.
+Ideally you should create a container to run apache-server as the main process (either by default entry-point or cmd).
+
+$ docker run -p 8081:80 --name eg -d epgg/eg
+And then using following command you can enter inside the running container.
+
+$ docker exec -it eg bash
+here name of your container is eg (Note since you already have a container named "eg" you may want to remove it first)
 
 ### Docker run -it -d, docker exect, /bin/bash, -v for volumes
 
