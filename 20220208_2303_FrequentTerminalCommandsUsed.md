@@ -169,4 +169,10 @@ docker ps -a
 docker (start/stop/rm) <container_name_or_id>
 ```
 
+### Ubuntu: where docker files are created?
+
+Generally, /var/lib/docker
+
+
+
 
