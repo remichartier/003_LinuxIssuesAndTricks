@@ -1,4 +1,4 @@
-# Ubuntu 22.04 The document you are trying to load requires Adobe Reader 8 or higher
+# Ubuntu 22.04: The document you are trying to load requires Adobe Reader 8 or higher
 
 This happens when trying to open some .pdf files downloaded from IRS websites on Ubuntu 22.04.
 
