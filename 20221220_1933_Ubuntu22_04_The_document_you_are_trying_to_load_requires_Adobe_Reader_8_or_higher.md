@@ -6,7 +6,7 @@ Some forums suggests to install an obsolete version of Adobe Reader, as Adobe do
 
 Or to install Wine, and then to install latest version of Adobe Reader for Windows and run it on Wine.
 
-I used 2 ways
+I used 2 ways.
 
 ## Install latest acrobat reader extension on Chrome browser
 
