@@ -55,6 +55,8 @@
   - [Ubuntu 18.04 + 20.04 : find Suspend even if not in menus](20220311_2234_Ubuntu1804And2004FindSuspendEvenIfNotInMenus.md)
 
   - [Linux redirect stdout/stderr to file](20220417_LinuxRedirectStdoutStderrToFile.md)
+
+  - [Ubuntu 22.04: The document you are trying to load requires Adobe Reader 8 or higher](20221220_1933_Ubuntu22_04_The_document_you_are_trying_to_load_requires_Adobe_Reader_8_or_higher.md)
   
 
 # Android Smartphones issues and tricks
