@@ -34,3 +34,8 @@ sudo snap disconnect acrordrdc:network
 ```
 
 Drawback: Not seeing any linux mounted drives
+
+Way to launch Acrobat Reader:
+```
+acrordrdc
+```
