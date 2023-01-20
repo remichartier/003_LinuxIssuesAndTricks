@@ -20,7 +20,10 @@ sudo rename 's/2014/2015/' *.jpg
 
 ## Install .deb files
 
-`sudo apt install -f`
+`sudo apt install -f package_file.deb`
+
+Sometimes, I found this above command not working, so I used this one instead:
+`sudo dpkg -i package_file.deb`
 
 ## Grep options
 ```
