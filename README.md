@@ -71,7 +71,7 @@
 
 - [Make written signature images transparent](20220128_1812_MakeWrittenSignatureImagesTransparent.md)
 
-- [Frequent Terminal Commands Used](20220208_2303_FrequentTerminalCommandsUsed.md)
+- [Frequent Linux Terminal Commands Used](20220208_2303_FrequentTerminalCommandsUsed.md)
 
 - [Python](20220217_2311_Python.md)
 
@@ -81,6 +81,7 @@
 
 - [Remote Desktop Control solutions on different OS and Sleep / Wakeup functionalities](202200302_2230_RemoteDesktopControlSolutionsOnDifferentOSAndSleepWakeupFunctionalities.md)
 
+- [Linux: Modify terminal prompts on Ubuntu or git-bash (Windows)](20230220_1848_LinuxModifyTerminalPromptsUbuntuOrGitBashWindows10.md)
 
 # Unresolved issues
 
