@@ -291,7 +291,12 @@ Source: https://wangler.io/upload-a-file-to-a-docker-container/
 docker cp missing_data.sql <container-id>:/missing_data.sql
 
 ```
+### Docker: how to check that the NVIDIA Container Toolkit is installed
 
+Source: https://github.com/moby/moby/issues/40903
+```
+which nvidia-container-toolkit
+```
 
 
 
