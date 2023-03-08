@@ -247,6 +247,9 @@ Again, make sure you replace the containers names in the below command with the 
 
 ```docker rm wonderful_kalam```
 
+Remove image by Image ID:
+```docker rmi [imageID]```
+
 Run the docker ```ps --all``` command again to see that all containers are gone.
 
 ### List specific docker container status
