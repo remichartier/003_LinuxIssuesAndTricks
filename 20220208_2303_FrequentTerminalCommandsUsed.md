@@ -300,6 +300,10 @@ Source: https://github.com/moby/moby/issues/40903
 ```
 which nvidia-container-toolkit
 ```
+## Get Nvidia GPU infos
+
+On Linux: `nvidia-smi`
+
 
 
 
