@@ -193,7 +193,17 @@ In interactive mode:
 
 ### Exciting a container
 
-Soource: https://vsupalov.com/exit-docker-container/#:~:text=Exiting%20a%20Docker%20Container%201%20Just%20Stopping%20the,Alternative%20Workflow%20...%204%20Your%20Road%20Ahead%20
+Soources: 
+* https://vsupalov.com/exit-docker-container/#:~:text=Exiting%20a%20Docker%20Container%201%20Just%20Stopping%20the,Alternative%20Workflow%20...%204%20Your%20Road%20Ahead%20
+* https://phoenixnap.com/kb/exit-docker-container#:~:text=Method%201%3A%20Exit%20and%20Stop%20Docker%20Container,-Perform%20the%20following&text=If%20a%20process%20is%20running,exit%20and%20stop%20the%20container.
+
+* If there’s a non-shell process running --> CTRL + C to interrupt it. Then CTRL + D
+* Otherwise, "exit" or CTRL + D to exit stop and exit a container.
+
+* If wanting to keep the container running in the background:
+  * Start the container with -d flag (to be able to "daemonize" the container)
+  * Then CTRL + P and CTRL + Q (turns interactive mode to daemon mode, which keeps the container running but frees up the terminal)
+  * You can attach to it later using docker attach, if you need to interact with the container more `docker attach [container-name-or-id]`
 
 
 ### Checking Docker disk space usage [The Docker Way]
