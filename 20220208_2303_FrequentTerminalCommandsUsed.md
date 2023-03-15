@@ -281,6 +281,20 @@ docker ps -a
 
 docker (start/stop/rm) <container_name_or_id>
 ```
+Source: https://stackoverflow.com/questions/21928691/how-to-continue-a-docker-container-which-has-exited
+```
+docker start -a -i `docker ps -q -l`
+Explanation:
+
+docker start start a container (requires name or ID)
+-a attach to container
+-i interactive mode
+docker ps List containers
+-q list only container IDs
+-l list only last created container
+```
+I used:
+`docker (start/stop/rm) -a -i <container_name_or_id>` to start again an exited /bin/bash container
 
 ### Ubuntu: where docker files are created?
 
