@@ -329,6 +329,21 @@ Source: https://github.com/moby/moby/issues/40903
 ```
 which nvidia-container-toolkit
 ```
+### Docker: disk out of space
+Use:
+```docker system prune```
+* it removes unused data, clears unused images, containers.
+```
+docker system prune
+WARNING! This will remove:
+  - all stopped containers
+  - all networks not used by at least one container
+  - all dangling images
+  - all dangling build cache
+
+Are you sure you want to continue? [y/N] 
+```
+
 ## Get Nvidia GPU infos
 
 On Linux: `nvidia-smi`
