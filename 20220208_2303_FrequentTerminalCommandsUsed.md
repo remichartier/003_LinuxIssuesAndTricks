@@ -157,7 +157,7 @@ And then using following command you can enter inside the running container.
 $ docker exec -it eg bash
 here name of your container is eg (Note since you already have a container named "eg" you may want to remove it first)
 
-### Docker run -it -d, docker exect, /bin/bash, -v for volumes
+### Docker run -it -d, docker exec, /bin/bash, -v for volumes
 
 Source: https://stackoverflow.com/questions/18497688/run-a-docker-image-as-a-container#:~:text=Do%20the%20following%20steps%3A%201%20%24%20docker%20images,can%20also%20specify%20an%20image%20ID%20%28no%20tag_name%29.
 
