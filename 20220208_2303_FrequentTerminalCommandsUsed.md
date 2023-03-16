@@ -191,7 +191,7 @@ In interactive mode:
 
 -i :Keep STDIN open even if not attached
 
-### Exciting a container
+### Exiting a container
 
 Soources: 
 * https://vsupalov.com/exit-docker-container/#:~:text=Exiting%20a%20Docker%20Container%201%20Just%20Stopping%20the,Alternative%20Workflow%20...%204%20Your%20Road%20Ahead%20
@@ -205,7 +205,12 @@ Soources:
   * Then CTRL + P and CTRL + Q (turns interactive mode to daemon mode, which keeps the container running but frees up the terminal)
   * You can attach to it later using docker attach, if you need to interact with the container more `docker attach [container-name-or-id]`
 
+### Launch several sessions connected to the same container
 
+Source: https://stackoverflow.com/questions/39794509/how-to-open-multiple-terminals-in-docker#:~:text=You%20can%20run%20docker%20exec,connected%20to%20the%20same%20container.
+
+You can run `docker exec -it <container> bash` from multiple terminals to launch several sessions connected to the same container.
+ 
 ### Checking Docker disk space usage [The Docker Way]
 
 Source https://linuxhandbook.com/docker-disk-space-usage/
