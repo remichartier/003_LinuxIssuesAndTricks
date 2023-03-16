@@ -348,6 +348,18 @@ Are you sure you want to continue? [y/N]
 
 On Linux: `nvidia-smi`
 
+## Measure time duration of a command
+
+`time command`
+
+Result example:
+```
+real	2m6.356s
+user	1m5.299s
+sys	0m13.693s
+```
+
+
 
 
 
