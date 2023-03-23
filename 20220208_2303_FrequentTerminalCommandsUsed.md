@@ -343,6 +343,14 @@ WARNING! This will remove:
 
 Are you sure you want to continue? [y/N] 
 ```
+### Docker: Run executable from host within docker container
+Source: https://stackoverflow.com/questions/30362373/run-executable-from-host-within-docker-container
+
+Mount the executable into the container with a volume like this:
+
+`$ docker run -v /path/to/executable:/my_exe debian /my_exe`
+
+The only problem is you will also need to take care of making sure any required libraries are also available in the container.
 
 ## Get Nvidia GPU infos
 
