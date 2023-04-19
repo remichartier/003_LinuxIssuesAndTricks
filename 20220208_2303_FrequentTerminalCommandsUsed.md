@@ -86,6 +86,7 @@ ip addr
 
 ifconfig
 ```
+- Get both dns name and IP address or a computer DNS name: `getent hosts xxx.xxx.xxx.com`
 
 ## Unzip a 7z file (7zip)
 
@@ -103,6 +104,22 @@ for example
 
 Notice that there is no space between -o and the output directory. If the file was encrypted, it will automatically ask for the password.
 
+## Get Nvidia GPU infos
+
+On Linux: `nvidia-smi`
+
+To get GPUs: `nvidia-smi -L`
+
+## Measure time duration of a command
+
+`time command`
+
+Result example:
+```
+real	2m6.356s
+user	1m5.299s
+sys	0m13.693s
+```
 
 ## Docker commands
 
@@ -352,20 +369,7 @@ Mount the executable into the container with a volume like this:
 
 The only problem is you will also need to take care of making sure any required libraries are also available in the container.
 
-## Get Nvidia GPU infos
 
-On Linux: `nvidia-smi`
-
-## Measure time duration of a command
-
-`time command`
-
-Result example:
-```
-real	2m6.356s
-user	1m5.299s
-sys	0m13.693s
-```
 
 
 
