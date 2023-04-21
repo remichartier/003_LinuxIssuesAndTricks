@@ -43,6 +43,13 @@ Source: https://makandracards.com/makandra/1142-debian-ubuntu-see-what-apt-would
 For redirecting in parallel stdout to a file
 `<cmd> | tee log.txt`
 
+## Terminal output redirection
+Source: https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file
+
+if you want to have both stderr and output displayed on the console and in a file use this:
+
+`SomeCommand 2>&1 | tee SomeFile.txt`
+
 ## List of folder sizes
 
 Source: https://superuser.com/questions/869969/is-there-a-terminal-command-to-list-folder-size-and-corresponding-file-sizes-wit
