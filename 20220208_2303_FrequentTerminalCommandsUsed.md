@@ -25,6 +25,11 @@ sudo rename 's/2014/2015/' *.jpg
 Sometimes, I found this above command not working, so I used this one instead:
 `sudo dpkg -i package_file.deb`
 
+## See what "apt" would install without actually doing it
+Source: https://makandracards.com/makandra/1142-debian-ubuntu-see-what-apt-would-install-without-actually-doing-it
+
+`sudo apt-get install --dry-run something`
+
 ## Grep options
 ```
 -R or -r --> recursive
