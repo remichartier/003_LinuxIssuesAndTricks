@@ -17,6 +17,11 @@ sudo rename 's/VID\_//' *.mp4
 
 sudo rename 's/2014/2015/' *.jpg
 ```
+## remove files recursively without deleting folders
+Source: https://unix.stackexchange.com/questions/182033/remove-all-files-recursively-without-deleting-directories
+```
+find . ! -name '.*' ! -type d -exec rm -- {} +
+```
 
 ## Install .deb files
 
