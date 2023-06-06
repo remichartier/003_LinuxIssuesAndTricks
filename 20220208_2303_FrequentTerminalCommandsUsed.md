@@ -30,6 +30,15 @@ find . ! -name '.*' ! -type d -exec rm -- {} +
 Sometimes, I found this above command not working, so I used this one instead:
 `sudo dpkg -i package_file.deb`
 
+## Uninstall packages installed with dpkg -i
+Source: https://unix.stackexchange.com/questions/195794/how-to-uninstall-a-deb-installed-with-dpkg
+```
+dpkg -l package_name
+dpkg -r package_name
+dpkg -P package_name
+dpkg -l
+```
+
 ## See what "apt" would install without actually doing it
 Source: https://makandracards.com/makandra/1142-debian-ubuntu-see-what-apt-would-install-without-actually-doing-it
 
