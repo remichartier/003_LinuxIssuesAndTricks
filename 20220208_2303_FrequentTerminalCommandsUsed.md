@@ -146,6 +146,8 @@ real	2m6.356s
 user	1m5.299s
 sys	0m13.693s
 ```
+# Alternative to 'ps - aef'
+`pgrep simu -l`: it will return any process name containing "simu", with its process ID. If needing to stop it, we can then use the process ID to kill it.
 
 ## Docker commands
 
