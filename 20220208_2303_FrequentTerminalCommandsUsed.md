@@ -146,8 +146,18 @@ real	2m6.356s
 user	1m5.299s
 sys	0m13.693s
 ```
-# Alternative to 'ps - aef'
+## Alternative to 'ps - aef'
 `pgrep simu -l`: it will return any process name containing "simu", with its process ID. If needing to stop it, we can then use the process ID to kill it.
+
+## Format a json file
+Source: https://stackoverflow.com/questions/5243885/json-command-line-formatter-tool-for-linux#:~:text=On%20Ubuntu%20jsonlint%20is%20provided%20by%20apt%3Apython3-demjson%20Usage%3A,-y%20python3-demjson%20%24%20jsonlint%20-f%20input.json%20%3E%20output.json
+
+On Ubuntu jsonlint is provided by apt:python3-demjson.
+Usage:
+```
+$ sudo apt install -y python3-demjson
+$ jsonlint -f input.json > output.json
+```
 
 ## Docker commands
 
