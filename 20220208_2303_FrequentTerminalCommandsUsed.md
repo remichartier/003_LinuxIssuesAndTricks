@@ -407,6 +407,20 @@ Mount the executable into the container with a volume like this:
 
 The only problem is you will also need to take care of making sure any required libraries are also available in the container.
 
+### Docker: Adapting TZ variable to US PST time
+Context: In docker file:
+```
+ENV TZ="Europe/Budapest"
+```
+To adapt to local computer, check its timezone via `cat /etc/timezone`
+Replace its result in the TZ variable:
+```
+ENV TZ="America/Los_Angeles"
+```
+
+
+
+
 
 
 
