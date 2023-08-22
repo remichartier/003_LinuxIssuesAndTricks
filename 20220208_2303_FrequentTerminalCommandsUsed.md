@@ -33,10 +33,10 @@ Sometimes, I found this above command not working, so I used this one instead:
 ## Uninstall packages installed with dpkg -i
 Source: https://unix.stackexchange.com/questions/195794/how-to-uninstall-a-deb-installed-with-dpkg
 ```
-dpkg -l package_name
-dpkg -r package_name
-dpkg -P package_name
-dpkg -l
+dpkg -l package_name    (check if this package is correctly installed in your system and being listed by dpkg tool)
+dpkg -r package_name    (remove the package itself (without the configuration files))
+dpkg -P package_name    (delete (purge) the package completely (with configuration files))
+dpkg -l                 (check if the package has been removed successfully)
 ```
 
 ## See what "apt" would install without actually doing it
