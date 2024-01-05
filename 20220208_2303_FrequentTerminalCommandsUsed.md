@@ -423,6 +423,40 @@ Replace its result in the TZ variable:
 ENV TZ="America/Los_Angeles"
 ```
 
+### Dockerfile command to update Cmake to latest version
+
+```
+RUN apt-get update && apt-get install -y python3-pip && \
+	 pip install cmake --upgrade
+```
+
+### Dockerfile: install gedit and nautilus
+
+```
+RUN apt-get install -y nautilus
+RUN apt install -y gedit
+```
+
+### Dockerfile: install a .def file into docker image
+
+```
+ENV FILE=filename.deb
+COPY $FILE /tmp
+RUN dpkg -i /tmp/$FILE && \
+    rm -rf /tmp/$FILE
+```
+
+### Dockerfile: copy a .zip file to a Docker image and unzip it
+
+```
+ENV FILE=file.zip
+COPY $FILE /root
+RUN unzip /root/$FILE -d /root/ros
+```
+
+
+
+
 
 
 
