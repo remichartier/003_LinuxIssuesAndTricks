@@ -454,6 +454,12 @@ COPY $FILE /root
 RUN unzip /root/$FILE -d /root/ros
 ```
 
+### see docker build logs
+
+C.f. tricks here: https://forums.docker.com/t/capture-ouput-of-docker-build-into-a-log-file/123178
+
+
+
 
 
 
