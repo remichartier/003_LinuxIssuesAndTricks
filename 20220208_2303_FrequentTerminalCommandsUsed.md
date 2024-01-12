@@ -158,6 +158,9 @@ Usage:
 $ sudo apt install -y python3-demjson
 $ jsonlint -f input.json > output.json
 ```
+## sed Stream string Editor
+
+Good source: https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
 
 ## Docker commands
 
