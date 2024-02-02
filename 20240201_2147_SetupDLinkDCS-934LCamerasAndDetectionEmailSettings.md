@@ -46,5 +46,5 @@ https://www.mydlink.com/device/unsupport_os_browser
 
 ## Gmail configuration for motion detection email notifications
 
-- setup SMTP server address and port as recommended from Gmail.
+- Setup SMTP server address and port as recommended from Gmail.
 - For Gmail account and password, Gmail does not allow anymore to use directly the Gmail password, so we need to go to the Gmail/Google account / Security. And then, "Enable 2-step verification on your Google account, then generate an App Password to use with the camera.  Use smtp.gmail.com, port 465/SSL or port 587/STARTTLS, your Gmail address as username and the App Password."
