@@ -42,4 +42,9 @@ These pages will open in Internet Explorer mode for 30 days from the date you ad
 https://mydlink.com/
 https://www.mydlink.com/device/unsupport_os_browser
 ```
-- To this effect, 
+- To this effect, via Microsoft Edge browser, use the DCS-934L IP address as URL to open the camera html settings webpage.
+
+## Gmail configuration for motion detection email notifications
+
+- setup SMTP server address and port as recommended from Gmail.
+- For Gmail account and password, Gmail does not allow anymore to use directly the Gmail password, so we need to go to the Gmail/Google account / Security. And then, "Enable 2-step verification on your Google account, then generate an App Password to use with the camera.  Use smtp.gmail.com, port 465/SSL or port 587/STARTTLS, your Gmail address as username and the App Password."
