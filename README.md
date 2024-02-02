@@ -83,6 +83,8 @@
 
 - [Linux: Modify terminal prompts on Ubuntu or git-bash (Windows)](20230220_1848_LinuxModifyTerminalPromptsUbuntuOrGitBashWindows10.md)
 
+- [DLink Cameras DCS-934L Setup and Settings access to configure motion detection and setup notification emails](20240201_2147_SetupDLinkDCS-934LCamerasAndDetectionEmailSettings.md)
+
 # Unresolved issues
 
 - [Edge Browser on Linux : Impossible to add work profile](20220130_1838_EdgeBrowserOnLinuxImpossibleToAddWorkProfile.md)
