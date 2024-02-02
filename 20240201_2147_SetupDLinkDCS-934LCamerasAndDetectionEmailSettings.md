@@ -42,6 +42,7 @@ These pages will open in Internet Explorer mode for 30 days from the date you ad
 https://mydlink.com/
 https://www.mydlink.com/device/unsupport_os_browser
 ```
+- Edge will show an icon on the top right corner, representing Internet Explorer Logo, to switch to "Reload tab in Internet Explorer Mode".
 - To this effect, via Microsoft Edge browser, use the DCS-934L IP address as URL to open the camera html settings webpage.
 
 ## Gmail configuration for motion detection email notifications
