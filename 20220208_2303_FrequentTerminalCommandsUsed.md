@@ -162,6 +162,40 @@ $ jsonlint -f input.json > output.json
 
 Good source: https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
 
+## fixing a uncompatible nvidia-driver package insall
+Context: on Ubuntu 20.04, via the Software Installer, I tried to install the latest Nvidia driver 535. Unfortunately, dependency issues makes it not compatible with Ubuntu 20.04, with some Nvidia kernal dependencies.
+- `nvidia-smi` command was telling the nvidia-driver-535 was not compatible with the Nvidia NVLM library installed: `Failed to initialize NVML: Driver/library version mismatch`
+- Display resolution was stuck at 800x600.
+- `sudo apt remove nvidia-driver-535` was reporting some dependency issues with other packages.
+
+Resolution: 
+- Remove all the Nvidia installed packages: `sudo apt-get --purge remove "*nvidia*"`, however, this command fails due to dependencies on other packages.
+- `sudo nvidia-uninstall` to uninstall manually installed drivers.
+- If blocked by dependencies, use `sudo gedit /var/lib/dpkg/status`, need to manually edit the dpkg status file, and look for the problematic package name. Remove those packages and save the file (Source: https://askubuntu.com/questions/1279472/i-cant-remove-packages-that-have-unmet-dependencies). Until the command `sudo apt-get --purge remove "*nvidia*"` completes successfully.
+- If some dependency packages are holding the removal, we can remove the holds: `sudo apt-mark unhold package_name` (source https://askubuntu.com/questions/164587/how-can-you-unhold-remove-a-hold-on-a-package#:~:text=You%20can%20use%20sudo%20apt-mark%20unhold%20package_name.%20The,you%20can%20use%20sudo%20apt-mark%20unhold%20%24%28apt-mark%20showhold%29.)
+- Check that all has been removed with `dpkg -l |  grep -i nvidia`,  if anything still has `ii` in the leftmost column, then purge it too. (source https://askubuntu.com/questions/1482917/ubuntu-20-04-doesnt-load-after-installing-nvidia-535-driver-and-stuck-at-black)
+- Re-install the original nvidia-driver compatible with Ubuntu 20.04: `sudo apt install nvidia-driver-525`.
+- If successfull, reboot. The machine should reboot with a normal resolution, and `nvidia-smi` should not return and warning/error message any more.
+- Clean the installed/unused packages:
+  - `sudo apt --fix-broken install` or `sudo apt-get install -f` or `sudo dpkg --configure -a` (repair commands)
+  - `sudo apt autoremove`
+  - `sudo apt autoclean` 
+
+## Ubuntu clean apt installed / unused packages
+- `sudo apt autoremove`
+- `sudo apt autoclean` 
+
+## Install Ubuntu drivers
+
+Rely on automatic detection, which will install the driver that is considered the best match for your hardware: `sudo ubuntu-drivers install` (source https://ubuntu.com/server/docs/nvidia-drivers-installation)
+
+
+## Check GPU/Vulkan info via command line (both Ubuntu and Windows10)
+
+`vulkaninfo`
+
+`nvidia-smi`
+
 ## Docker commands
 
 ### What is docker?
