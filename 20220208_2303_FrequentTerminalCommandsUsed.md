@@ -130,11 +130,13 @@ for example
 
 Notice that there is no space between -o and the output directory. If the file was encrypted, it will automatically ask for the password.
 
-## Get Nvidia GPU infos
+## Get Nvidia GPU infos, check GPU/Vulkan info via command line (both Ubuntu and Windows10)
 
 On Linux: `nvidia-smi`
 
 To get GPUs: `nvidia-smi -L`
+
+`vulkaninfo`
 
 ## Measure time duration of a command
 
@@ -162,7 +164,7 @@ $ jsonlint -f input.json > output.json
 
 Good source: https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
 
-## fixing a uncompatible nvidia-driver package insall
+## Fixing an incompatible nvidia-driver package insall
 Context: on Ubuntu 20.04, via the Software Installer, I tried to install the latest Nvidia driver 535. Unfortunately, dependency issues makes it not compatible with Ubuntu 20.04, with some Nvidia kernal dependencies.
 - `nvidia-smi` command was telling the nvidia-driver-535 was not compatible with the Nvidia NVLM library installed: `Failed to initialize NVML: Driver/library version mismatch`
 - Display resolution was stuck at 800x600.
@@ -188,13 +190,6 @@ Resolution:
 ## Install Ubuntu drivers
 
 Rely on automatic detection, which will install the driver that is considered the best match for your hardware: `sudo ubuntu-drivers install` (source https://ubuntu.com/server/docs/nvidia-drivers-installation)
-
-
-## Check GPU/Vulkan info via command line (both Ubuntu and Windows10)
-
-`vulkaninfo`
-
-`nvidia-smi`
 
 ## Docker commands
 
