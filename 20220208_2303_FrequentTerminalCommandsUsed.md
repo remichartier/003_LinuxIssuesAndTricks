@@ -191,6 +191,12 @@ Resolution:
 
 Rely on automatic detection, which will install the driver that is considered the best match for your hardware: `sudo ubuntu-drivers install` (source https://ubuntu.com/server/docs/nvidia-drivers-installation)
 
+## CMAKE generated dynamic libraries and executable in bin/debug instead of bin folder
+Source: https://stackoverflow.com/questions/19024259/how-to-change-the-build-type-to-release-mode-in-cmake
+
+CMAKE on Windows with generate in debug mode in /bin/debug folder.
+On Windows, if switching to release mode via command `cmake --build {DIR} --config Release`, it will generate executables/libraries to bin/Release folder
+
 ## Docker commands
 
 ### What is docker?
