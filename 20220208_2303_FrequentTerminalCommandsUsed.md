@@ -199,6 +199,10 @@ Sources:
 CMAKE on Windows with generate in debug mode in /bin/debug folder.
 On Windows, if switching to release mode via command `cmake --build {DIR} --config Release`, it will generate executables/libraries to bin/Release folder
 
+## Shell script 'pushd/popd' quiet mode
+`pushd <folder> > /dev/null`
+`popd > /dev/null`
+
 ## Docker commands
 
 ### What is docker?
