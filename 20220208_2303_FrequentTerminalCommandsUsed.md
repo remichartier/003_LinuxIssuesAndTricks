@@ -201,6 +201,7 @@ On Windows, if switching to release mode via command `cmake --build {DIR} --conf
 
 ## Shell script 'pushd/popd' quiet mode
 `pushd <folder> > /dev/null`
+
 `popd > /dev/null`
 
 ## Docker commands
