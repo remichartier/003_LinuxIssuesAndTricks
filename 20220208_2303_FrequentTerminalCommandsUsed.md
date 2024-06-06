@@ -415,6 +415,10 @@ docker ps List containers
 ```
 I used:
 `docker (start/stop/rm) -a -i <container_name_or_id>` to start again an exited /bin/bash container
+When docker container is "exited", we can restart the container with:
+`docker restart <container_id>`
+Then enter the docker container with:
+`docker exec -it  <container_name> /bin/bash`
 
 ### Ubuntu: where docker files are created?
 
