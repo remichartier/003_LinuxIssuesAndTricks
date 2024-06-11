@@ -424,12 +424,14 @@ Then enter the docker container with:
 
 Generally, /var/lib/docker
 
-### Upload file to a docker container
+### Upload/Download files or folders To/From a docker container
 
 Source: https://wangler.io/upload-a-file-to-a-docker-container/
 
 ```
 docker cp missing_data.sql <container-id>:/missing_data.sql
+
+docker cp <container-id>:/missing_data.sql missing_data.sql
 
 ```
 ### Docker: how to check that the NVIDIA Container Toolkit is installed
