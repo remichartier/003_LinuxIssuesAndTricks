@@ -3,6 +3,8 @@
 ## Quick Find Terminal command :
 
 `find . -type f -iname 201910*google*.pdf`
+- find long path name on Windows (limited to 255 characters)
+`find <folder> -type f |wc -L` ( -L, --max-line-length  print the maximum display width) 
 
 ## Rename files :
 
