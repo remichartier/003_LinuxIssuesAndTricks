@@ -21,7 +21,7 @@ Sources:
 - Mount point set to `/media/<user_id>/Data`, provided that the folders `/media/<user_id>/Data` already exist, it will mount the disk on the `Data` folder.
 - After system startup, check the permissions of `/media/<user_id>/Data`:
   - `/media` should be root owner
-  - `<user_id>` shoudl be root owner
+  - `<user_id>` shoudl be root owner, with permissions only "drwxrwx---+" (group permissions to allow <user_id> to have permissions)
   - `Data` shoud be `<user_id>` owner, with permissions only "drwx------"
 
 All those tricks allowed me to auto-mount the 2nd hard drive at every system startup, not as root with permissions to everyone, but instead as <user_id> with permissions to no one else, which is more secure in terms of blocking access to any unwanted users.
