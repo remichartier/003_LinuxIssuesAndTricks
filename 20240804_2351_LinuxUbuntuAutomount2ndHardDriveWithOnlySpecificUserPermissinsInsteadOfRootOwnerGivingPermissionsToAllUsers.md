@@ -19,5 +19,9 @@ Sources:
     - The `x-udisks-auth` was added when checking the "Require additional authorization to mount"
     - I added `umask=077` to only allow <user_id> permissions, and remove permissions for Others an Group users.
 - Mount point set to `/media/<user_id>/Data`, provided that the folders `/media/<user_id>/Data` already exist, it will mount the disk on the `Data` folder.
+- After system startup, check the permissions of `/media/<user_id>/Data`:
+  - `/media` should be root owner
+  - `<user_id>` shoudl be root owner
+  - `Data` shoud be `<user_id>` owner, with permissions only "drwx------"
 
 All those tricks allowed me to auto-mount the 2nd hard drive at every system startup, not as root with permissions to everyone, but instead as <user_id> with permissions to no one else, which is more secure in terms of blocking access to any unwanted users.
