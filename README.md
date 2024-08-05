@@ -40,6 +40,8 @@
 
   - [Linux / Ubuntu : Remove green background on Folders listed in command Terminal](20220413_1930_LinuxUbuntuRemoveGreenBackgroundOnFoldersListedInCommandTerminal.md)
 
+  - [Linux / Ubuntu : Automount 2nd hard drive with only specific user permissins instead of root owner giving permissions to all users](20240804_2351_LinuxUbuntuAutomount2ndHardDriveWithOnlySpecificUserPermissinsInsteadOfRootOwnerGivingPermissionsToAllUsers.md)
+
 - Tools :
 
   - [Exemple of how to rename files on Linux Terminal / command line for screenshot files](20211119_1448_RenamingScreenshotFilesOnCommandLine_v01.md)
