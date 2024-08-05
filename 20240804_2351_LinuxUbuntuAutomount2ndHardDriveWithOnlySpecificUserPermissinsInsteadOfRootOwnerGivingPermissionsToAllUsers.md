@@ -2,6 +2,7 @@
 
 Sources:
 - https://help.ubuntu.com/community/AutomaticallyMountPartitions#Per-User_Mounts
+- https://www.liquidweb.com/blog/what-is-umask-and-how-to-use-it-effectively/#:~:text=The%20Linux%20umask%20command%20can,to%20find%20its%20binary%20path.&text=If%20you%20want%20to%20edit,umask%20command%20at%20the%20bottom.
 
 - Start Disks app
 - Select the 2nd drive, and the partition mounted, or to be mounted.
