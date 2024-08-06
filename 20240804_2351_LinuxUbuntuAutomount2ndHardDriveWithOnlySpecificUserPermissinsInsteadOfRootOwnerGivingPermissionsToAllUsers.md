@@ -1,4 +1,4 @@
-# Linux / Ubuntu : Automount 2nd hard drive with only specific user permissins instead of root owner giving permissions to all users
+# Linux / Ubuntu : Auto-mount 2nd hard drive with only specific user permissins instead of root owner giving permissions to all users
 
 Sources:
 - https://help.ubuntu.com/community/AutomaticallyMountPartitions#Per-User_Mounts
