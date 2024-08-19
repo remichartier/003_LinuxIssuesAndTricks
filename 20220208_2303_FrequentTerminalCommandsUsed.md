@@ -224,8 +224,8 @@ Personal experience:
 - Installed WinSCP on the Windows machine.
 - Installed openssh-server on the Ubuntu machine.
 - On the Windows WinSCP, I tried transferring files using SCP, but for large files, time-out occured after 6GB transers, systematically.
-  - So I used the SFTP protocol instead, and barely no problems there.
-- If Transfering from 2 Ubuntu machine, one end should have openssh-server installed. The other end should have Filezilla client install, connecting to the other computer using SFTP protocol.
+  - So I used the SFTP protocol instead, and barely no problems happened for large file transfers.
+- If transfering between 2 Ubuntu machines, one end should have openssh-server installed. The other end should have Filezilla client installed, connecting to the other computer using SFTP protocol.
    
 ## Docker commands
 
