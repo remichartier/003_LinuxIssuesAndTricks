@@ -210,6 +210,23 @@ On Windows, if switching to release mode via command `cmake --build {DIR} --conf
 
 `popd > /dev/null`
 
+# Transfer of big size file or folders between Windowns/Ubuntu personal laptop via Ethernet cables
+
+Source: https://askubuntu.com/questions/1189406/transfer-files-from-windows-to-linux-via-ethernet-cable
+
+- get two ethernet cables and a router
+- connect the computers via the router
+- make the Ubuntu computer into an ssh server by installing openssh-server
+- make the Windows computer into an ssh client by installing WinSCP or Filezilla (in Windows)
+- connect via WinSCP or Filezilla and transfer the files. You can transfer a whole directory tree.
+
+Personal experience:
+- Installed WinSCP on the Windows machine.
+- Installed openssh-server on the Ubuntu machine.
+- On the Windows WinSCP, I tried transferring files using SCP, but for large files, time-out occured after 6GB transers, systematically.
+  - So I used the SFTP protocol instead, and barely no problems there.
+- If Transfering from 2 Ubuntu machine, one end should have openssh-server installed. The other end should have Filezilla client install, connecting to the other computer using SFTP protocol.
+   
 ## Docker commands
 
 ### What is docker?
