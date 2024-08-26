@@ -190,8 +190,9 @@ Resolution:
   - `sudo apt autoclean` 
 
 ## Ubuntu clean apt installed / unused packages
-- `sudo apt autoremove`
-- `sudo apt autoclean` 
+- `sudo apt autoremove` (it removes automatically-installed packages which no longer have any dependencies)
+- `sudo apt autoclean` (autoclean removes those which can no longer be downloaded)
+- 'sudo apt clean' (clean removes all downloaded .deb files from the package caches)
 
 ## Install Ubuntu drivers
 
