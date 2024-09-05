@@ -227,6 +227,16 @@ Personal experience:
 - On the Windows WinSCP, I tried transferring files using SCP, but for large files, time-out occured after 6GB transers, systematically.
   - So I used the SFTP protocol instead, and barely no problems happened for large file transfers.
 - If transfering between 2 Ubuntu machines, one end should have openssh-server installed. The other end should have Filezilla client installed, connecting to the other computer using SFTP protocol.
+
+## Git
+### Configure git for command line usage
+Source: https://learn.microsoft.com/en-us/devops/develop/git/install-and-set-up-git
+
+```
+git config --global user.name "<First_name> <Last_name>"
+
+git config --global user.email "<user_email_address>"
+```
    
 ## Docker commands
 
