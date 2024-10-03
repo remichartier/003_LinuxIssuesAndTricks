@@ -166,6 +166,18 @@ Usage:
 $ sudo apt install -y python3-demjson
 $ jsonlint -f input.json > output.json
 ```
+or, more straightforward on Linux:
+Source: https://stackoverflow.com/questions/20265439/how-can-i-pretty-print-a-json-file-from-the-command-line#:~:text=To%20format%20your%20JSON%20with%20proper
+
+`cat somefile.json | jq .`
+
+From the jq website (https://stedolan.github.io/jq/):
+`jq is like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep and friends let you play with text.`
+
+It provides colored output by default and you simply have to pipe to jq, e.g.
+
+`jq . < file`
+
 ## sed Stream string Editor
 
 Good source: https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
