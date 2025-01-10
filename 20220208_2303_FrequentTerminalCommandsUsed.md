@@ -82,10 +82,20 @@ It outputs the total size of each sub-directory from the current directory locat
 
 It lists all folders (including repetitive sub-folders) with most disk space usage sorted.
 
+
+'''du -s'''
+-s, --summarize
+              display only a total for each argument
+
 here is the tree command. Install it via sudo apt-get install tree, and type the following:
 
 '''tree -h'''
 
+## Copy file with progress status
+
+'''rsync -r --progress file1 file2'''
+-r for recursive if dealing with folders.
+--progress to show progress
 ## Get list of packages installed on Ubuntu
 
 Source: https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubuntu-linux/
