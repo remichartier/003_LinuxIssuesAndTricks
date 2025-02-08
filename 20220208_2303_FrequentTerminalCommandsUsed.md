@@ -49,7 +49,12 @@ dpkg -l                 (check if the package has been removed successfully)
 Source: https://makandracards.com/makandra/1142-debian-ubuntu-see-what-apt-would-install-without-actually-doing-it
 
 `sudo apt-get install --dry-run something`
-
+## Apt search package
+Example:
+```
+sudo apt update
+apt search nvidia-driver
+```
 ## Grep options
 ```
 -R or -r --> recursive
