@@ -175,7 +175,9 @@ sys	0m13.693s
 ## Format a json file
 Source: https://stackoverflow.com/questions/5243885/json-command-line-formatter-tool-for-linux#:~:text=On%20Ubuntu%20jsonlint%20is%20provided%20by%20apt%3Apython3-demjson%20Usage%3A,-y%20python3-demjson%20%24%20jsonlint%20-f%20input.json%20%3E%20output.json
 
-On Ubuntu jsonlint is provided by apt:python3-demjson.
+### On Ubuntu 
+
+jsonlint is provided by apt:python3-demjson.
 Usage:
 ```
 $ sudo apt install -y python3-demjson
@@ -192,6 +194,30 @@ From the jq website (https://stedolan.github.io/jq/):
 It provides colored output by default and you simply have to pipe to jq, e.g.
 
 `jq . < file`
+
+### On Windows10 with Notepad++
+
+Source: https://www.google.com/search?q=notepad%2B%2B+how+to+improve+.json+formatting&oq=notepad%2B%2B+how+to+improve+.json+formatting&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRifBTIHCAIQIRifBTIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBTIHCAYQIRifBTIHCAcQIRifBTIHCAgQIRifBTIHCAkQIRifBdIBCTI4MzQyajBqN6gCCLACAfEFVbF9yNPnO3c&sourceid=chrome&ie=UTF-8
+
+Search Labs | AI Overview
+Learn more
+To improve JSON formatting in Notepad++, the most effective method is to install the "JSON Viewer" plugin, which allows you to easily format your JSON data with proper indentation and syntax highlighting by simply selecting the text and using the plugin's formatting function; you can also access advanced options to customize the formatting further. 
+How to use the JSON Viewer plugin:
+Install the plugin: Go to Plugins > Plugin Manager > Online and search for "JSON Viewer" then install it. 
+Open your JSON file: Open the JSON file you want to format in Notepad++. 
+Select the text to format: Highlight the section of JSON code you want to format. 
+Format the JSON: Go to Plugins > JSON Viewer > Format JSON. 
+Key points about using the JSON Viewer plugin:
+Syntax highlighting: The plugin will color-code different elements of your JSON structure, making it easier to read and identify potential errors. 
+Indentation: It automatically adds appropriate indentation to your JSON, making the structure clear. 
+Expand/Collapse functionality: You can expand and collapse nested JSON objects for better navigation. 
+Other options for formatting JSON in Notepad++:
+Language selection:
+Ensure you select "JSON" as the language for your file in Notepad++ to get basic syntax highlighting. 
+Manual formatting:
+Use keyboard shortcuts like "Ctrl+A" to select all, "Ctrl+I" to indent, and "Ctrl+K" to format lines manually. 
+Alternative plugins:
+Some users may prefer other plugins like "J/s Tool" which can also format JSON data. 
 
 ## sed Stream string Editor
 
