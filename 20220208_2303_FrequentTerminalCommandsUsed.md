@@ -499,6 +499,10 @@ docker start start a container (requires name or ID)
 docker ps List containers
 -q list only container IDs
 -l list only last created container
+
+docker stop <container_id>
+docker start <container_id>
+docker attach --> it will do like a docker exec to start a docker container session again on the same container.
 ```
 I used:
 `docker (start/stop/rm) -a -i <container_name_or_id>` to start again an exited /bin/bash container
