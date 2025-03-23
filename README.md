@@ -61,6 +61,8 @@
   - [Ubuntu 22.04: The document you are trying to load requires Adobe Reader 8 or higher](20221220_1933_Ubuntu22_04_The_document_you_are_trying_to_load_requires_Adobe_Reader_8_or_higher.md)
 
   - [Ubuntu: Using Wine for Windows App on Ubuntu](20221221_1550_Using_Wine_for_Windows_App_on_Ubuntu.md)
+
+  - [Ubuntu 24.04 Black Screen With Only Cursor Displayed At Boot](20250323_0010_Ubuntu24_04BlackScreenWithOnlyCursorDisplayedAtBoot.md)
   
 
 # Android Smartphones issues and tricks
