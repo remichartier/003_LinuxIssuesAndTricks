@@ -24,3 +24,14 @@ Restart your system:
 sudo reboot
 ```
 No other solutions mentioned in the sources worked for me so far.
+To be able to switch back to gdm3 login again, I found out that in the file "/etc/gdm3/custom.conf", the "WaylandEnable" line was commented. I have no idea why, because I never modified this file before:
+
+```
+# Uncomment the line below to force the login screen to use Xorg
+#WaylandEnable=false
+```
+After uncommenting this line, and rebooting with gdm3, I landed again on the login window as expected.
+
+I also noticed that when I was trying to login via gdm3, using Wayland instead of X11 (WaylandEnable=true), then I would fall back on the same initial issue, no login screen, just a black screen with a mouse cursor. Essentially same failure as if I had that commented line "#WaylandEnable=false".
+
+I suspect that one of the latest Ubuntu update forced to use Wayland instead of X11 for the login screen, by commenting the line "#WaylandEnable=false". And apparently, Wayland login would fail to launch on my system.
