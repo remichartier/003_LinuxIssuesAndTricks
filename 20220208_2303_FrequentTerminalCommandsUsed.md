@@ -290,7 +290,22 @@ git config --global user.name "<First_name> <Last_name>"
 
 git config --global user.email "<user_email_address>"
 ```
-   
+## Format C++ files and folders recursively
+Sources: https://stackoverflow.com/questions/28896909/how-to-call-clang-format-over-a-cpp-project-folder
+```
+Unfortunately, there is no way to apply clang-format recursively. *.cpp will only match files in the current directory, not subdirectories. Even **/* doesn't work.
+
+Luckily, there is a solution: grab all the file names with the find command and pipe them in. For example, if you want to format all .h and .cpp files in the directory foo/bar/ recursively, you can do
+find foo/bar/ -iname '*.h' -o -iname '*.cpp' | xargs clang-format -i
+```
+or
+```
+Most efficient solution:
+
+clang-format -i -- **.cpp **.h **.hpp
+in the project folder. This edited version works with subdirectories, too.
+```
+
 ## Docker commands
 
 ### What is docker?
