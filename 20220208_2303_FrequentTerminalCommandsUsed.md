@@ -305,6 +305,22 @@ Most efficient solution:
 clang-format -i -- **.cpp **.h **.hpp
 in the project folder. This edited version works with subdirectories, too.
 ```
+## Grub prompt at boot
+This happened in a situation where I had 2 SDDs loaded with Ubuntu versions in a machine, and I decided to install an Ubuntu version from scratch on one of the SSD, having both SSDs connected and powered on.
+Apparently, it messed with the other SSD boot partition, and at the end, I was unable to boot the Ubuntu of the other SSD, it would always lead me to a grub terminal prompt and not launch Ubuntu Desktop.
+
+Sources:
+- https://askubuntu.com/questions/1279852/installed-ubuntu-20-04-lts-and-now-computer-always-boots-to-grub-prompt
+
+Tricks used.
+- At Grub prompt, use ls to see visible disks/partitions. Most likely, I can boot again on the Ubuntu system via those following commands on the grub prompt:
+```
+set root=(hd0,gpt2)
+set prefix=(hd0,gpt2)/grub
+insmod normal
+normal
+```
+I haven't found a way to make the machine automatic. I waited to re-image this SSD with a new Ubuntu image to fix that issue.
 
 ## Docker commands
 
