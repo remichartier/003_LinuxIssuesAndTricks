@@ -322,6 +322,20 @@ normal
 ```
 I haven't found a way to make the machine automatic. I waited to re-image this SSD with a new Ubuntu image to fix that issue.
 
+## Ubuntu disable splash screen at boot
+Source https://askubuntu.com/questions/33416/how-do-i-disable-the-boot-splash-screen-and-only-show-kernel-and-boot-text-inst
+- Edit /etc/default/grub (using sudo nano /etc/default/grub), and remove the "quiet splash" from the Linux command line:
+
+- Here's what it looks like by default:
+
+`GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"`
+
+- Make it look like this:
+
+`GRUB_CMDLINE_LINUX_DEFAULT=""`
+
+- After this run sudo update-grub2
+
 ## Docker commands
 
 ### What is docker?
