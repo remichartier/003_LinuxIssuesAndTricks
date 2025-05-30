@@ -135,6 +135,13 @@ ifconfig
 ```
 - Get both dns name and IP address or a computer DNS name: `getent hosts xxx.xxx.xxx.com`
 
+## linux how to search all computers connected to the local network
+Source Bing Copilot
+```
+sudo apt install arp-scan
+sudo arp-scan --localnet
+```
+
 ## Unzip a 7z file (7zip)
 
 Source: https://askubuntu.com/questions/219392/how-can-i-uncompress-a-7z-file
