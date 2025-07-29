@@ -658,6 +658,14 @@ Source: https://stackoverflow.com/questions/37832575/how-to-view-logs-for-a-dock
 docker build --progress=plain
 ```
 
+## AWS s3 buckets
+
+### download recursively an s3 bucket/folder
+
+`aws s3 cp --recursive s3://my_s3_bucket .`
+
+The recursive flag downloads the entire S3 bucket recursively into the local directory (that’s what the dot at the end is for).
+
 
 
 
