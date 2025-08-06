@@ -101,6 +101,8 @@ here is the tree command. Install it via sudo apt-get install tree, and type the
 '''rsync -r --progress file1 file2'''
 -r for recursive if dealing with folders.
 --progress to show progress
+--ignore-existing (ignore files already existing on the receiver side)
+
 ## Get list of packages installed on Ubuntu
 
 Source: https://www.cyberciti.biz/faq/apt-get-list-packages-are-installed-on-ubuntu-linux/
