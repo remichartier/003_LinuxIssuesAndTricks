@@ -1,0 +1,59 @@
+# Ros2 and Autoware commands and tricks
+
+## How to know which file from src/universe/autoware_universe/control/autoware_vehicle_cmd_gate/config/vehicle_cmd_gate.param.yaml or src/launcher/autoware_launch/autoware_launch/config/control/vehicle_cmd_gate/vehicle_cmd_gate.param.yaml is used effectively, in order to patch the right file and not the wrong file?
+
+VSCode Continue "Quen3-code-next" answers: 
+
+You need to know which launch file is being used — the one from autoware_launch or autoware_universe.
+
+✅ Check which launch is active:
+Run
+ros2 launch autoware_launch e2e_simulator.launch.xml --show-args
+# Look for vehicle_cmd_gate param path
+Or, more directly:
+
+Run
+ros2 param dump /control/vehicle_cmd_gate | grep -E "stop_hold_acceleration|emergency_acceleration"
+# This shows the *runtime values* used
+✅ Check which node is using which config
+Run
+ros2 node info /control/vehicle_cmd_gate
+# Look for parameter sources
+Then:
+
+Run
+ros2 param get /control/vehicle_cmd_gate stop_hold_acceleration
+# Shows value used at runtime
+🔍 Most reliable: trace launch hierarchy
+Find which launch file loads vehicle_cmd_gate:
+
+Run
+grep -r "vehicle_cmd_gate" ./src/launcher/autoware_launch/autoware_launch/ | grep -E "\.launch|\.xml"
+# Likely:
+# ./src/launcher/autoware_launch/autoware_launch/config/control/vehicle_cmd_gate/vehicle_cmd_gate.param.yaml
+Also:
+
+Run
+grep -r "vehicle_cmd_gate" ./src/universe/autoware_universe/control/autoware_vehicle_cmd_gate/launch/ | grep -E "\.launch|\.xml"
+# Likely:
+# ./src/universe/autoware_universe/control/autoware_vehicle_cmd_gate/launch/vehicle_cmd_gate.launch.xml
+→ Whichever one is included in your main launch file is the one used.
+
+From your earlier:
+
+Run
+ros2 launch autoware_launch e2e_simulator.launch.xml ...
+→ So the autoware_launch config is used, not autoware_universe.
+
+✅ Final answer
+Since you're launching with:
+
+Run
+ros2 launch autoware_launch e2e_simulator.launch.xml ...
+→ The effective config is:
+
+Run
+./src/launcher/autoware_launch/autoware_launch/config/control/vehicle_cmd_gate/vehicle_cmd_gate.param.yaml
+→ Patch that file, not the autoware_universe one.
+
+Let me know if you want me to give you the exact patch for that file.
